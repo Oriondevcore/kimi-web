@@ -1956,19 +1956,46 @@ function ContactSection() {
     property: "",
     message: "",
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
-
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  e.preventDefault()
+  setIsSubmitting(true)
+  
+  try {
+    const response = await fetch('/api/demo-request', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        fullName: formData.name,
+        email: formData.email,
+        company: formData.company,
+        propertyName: formData.property,
+        message: formData.message
+      }),
+    })
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    const data = await response.json()
 
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-  };
+    if (!response.ok) {
+      console.error('Form error:', data.message)
+      alert(`Error: ${data.message || 'Failed to submit'}`)
+      setIsSubmitting(false)
+      return
+    }
+
+    setIsSubmitting(false)
+    setIsSubmitted(true)
+    
+    // Reset form after 3 seconds
+    setTimeout(() => {
+      setIsSubmitted(false)
+      setFormData({ name: '', email: '', company: '', property: '', message: '' })
+    }, 3000)
+  } catch (error) {
+    console.error('Submission error:', error)
+    alert('An error occurred. Please try again.')
+    setIsSubmitting(false)
+  }
+}
 
   return (
     <section
