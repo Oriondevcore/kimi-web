@@ -2,9 +2,16 @@ import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/lib/firebase";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { z } from "zod";
-import { Resend } from "resend";
+import nodemailer from "nodemailer";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Configure Nodemailer with Gmail
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_APP_PASSWORD,
+  },
+});
 
 // Validation schema
 const demoFormSchema = z.object({
@@ -27,15 +34,12 @@ export async function POST(req: NextRequest) {
       ...validatedData,
       timestamp: serverTimestamp(),
       userAgent: req.headers.get("user-agent"),
-      ipAddress:
-        req.headers.get("x-forwarded-for") ||
-        req.headers.get("cf-connecting-ip") ||
-        "Unknown",
+      ipAddress: req.headers.get("x-forwarded-for") || req.ip,
     });
 
     // Send confirmation email to user
-    await resend.emails.send({
-      from: "ORION Demo <hello@oriondevcore.com>",
+    await transporter.sendMail({
+      from: `ORION Demo <${process.env.GMAIL_USER}>`,
       to: validatedData.email,
       subject: "Demo Request Received - ORION HOTEL SUITE",
       html: `
@@ -65,41 +69,33 @@ export async function POST(req: NextRequest) {
       `,
     });
 
-    // Send notification email(s) to admin
-    const adminEmails = [
-      "graham@oriondevcore.com",
-      "mikehunt7099@gmail.com",
-      "grahamschubach@yahoo.com",
-    ];
-
-    for (const adminEmail of adminEmails) {
-      await resend.emails.send({
-        from: "ORION Demo <hello@oriondevcore.com>",
-        to: adminEmail,
-        subject: `New Demo Request: ${validatedData.company}`,
-        html: `
-          <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333;">
-            <h2 style="color: #1f2937;">🎉 New Demo Request Received</h2>
-            
-            <div style="background: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
-              <p style="margin: 0;"><strong>Full Name:</strong> ${validatedData.fullName}</p>
-              <p style="margin: 8px 0;"><strong>Email:</strong> <a href="mailto:${validatedData.email}" style="color: #2563eb;">${validatedData.email}</a></p>
-              <p style="margin: 8px 0;"><strong>Company:</strong> ${validatedData.company}</p>
-              <p style="margin: 8px 0;"><strong>Property:</strong> ${validatedData.propertyName}</p>
-              ${validatedData.message ? `<p style="margin: 8px 0;"><strong>Message:</strong> ${validatedData.message}</p>` : ""}
-            </div>
-            
-            <p><strong>📋 Quick Actions:</strong></p>
-            <ul style="list-style: none; padding: 0;">
-              <li>📧 <a href="mailto:${validatedData.email}" style="color: #2563eb;">Reply via Email</a></li>
-              <li>💬 <a href="https://wa.me/27724971840" style="color: #2563eb;">WhatsApp Contact</a></li>
-            </ul>
-            
-            <p style="color: #6b7280; font-size: 12px; margin-top: 30px;">Firestore Doc ID: ${docRef.id}</p>
+    // Send notification email to admin (single email to Graham)
+    await transporter.sendMail({
+      from: `ORION Demo <${process.env.GMAIL_USER}>`,
+      to: process.env.GMAIL_USER, // mikehunt7099@gmail.com (forwarded from Cloudflare)
+      subject: `🎉 New Demo Request: ${validatedData.company}`,
+      html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333;">
+          <h2 style="color: #1f2937;">🎉 New Demo Request Received</h2>
+          
+          <div style="background: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <p style="margin: 0;"><strong>Full Name:</strong> ${validatedData.fullName}</p>
+            <p style="margin: 8px 0;"><strong>Email:</strong> <a href="mailto:${validatedData.email}" style="color: #2563eb;">${validatedData.email}</a></p>
+            <p style="margin: 8px 0;"><strong>Company:</strong> ${validatedData.company}</p>
+            <p style="margin: 8px 0;"><strong>Property:</strong> ${validatedData.propertyName}</p>
+            ${validatedData.message ? `<p style="margin: 8px 0;"><strong>Message:</strong> ${validatedData.message}</p>` : ""}
           </div>
-        `,
-      });
-    }
+          
+          <p><strong>📋 Quick Actions:</strong></p>
+          <ul style="list-style: none; padding: 0;">
+            <li>📧 <a href="mailto:${validatedData.email}" style="color: #2563eb;">Reply via Email</a></li>
+            <li>💬 <a href="https://wa.me/27724971840" style="color: #2563eb;">WhatsApp Contact</a></li>
+          </ul>
+          
+          <p style="color: #6b7280; font-size: 12px; margin-top: 30px;">Firestore Doc ID: <strong>${docRef.id}</strong></p>
+        </div>
+      `,
+    });
 
     return NextResponse.json(
       {
