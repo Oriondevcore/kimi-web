@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
       ...validatedData,
       timestamp: serverTimestamp(),
       userAgent: req.headers.get("user-agent"),
-      ipAddress: req.headers.get("x-forwarded-for") || req.ip,
+      ipAddress: req.headers.get("x-forwarded-for") || req.headers.get("cf-connecting-ip") || "Unknown",
     });
 
     // Send confirmation email to user
