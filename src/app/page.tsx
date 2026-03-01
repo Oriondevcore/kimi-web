@@ -1889,7 +1889,7 @@ function AboutSection() {
                     Graham Schubach
                   </h3>
                   <p className="text-[#D4A84B] font-medium mt-1">
-                    Founder & Visionary
+                    - Founder & Visionary
                   </p>
                 </div>
 
@@ -1956,46 +1956,54 @@ function ContactSection() {
     property: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
   const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault()
-  setIsSubmitting(true)
-  
-  try {
-    const response = await fetch('/api/demo-request', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        fullName: formData.name,
-        email: formData.email,
-        company: formData.company,
-        propertyName: formData.property,
-        message: formData.message
-      }),
-    })
+    e.preventDefault();
+    setIsSubmitting(true);
 
-    const data = await response.json()
+    try {
+      const response = await fetch("/api/demo-request", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          fullName: formData.name,
+          email: formData.email,
+          company: formData.company,
+          propertyName: formData.property,
+          message: formData.message,
+        }),
+      });
 
-    if (!response.ok) {
-      console.error('Form error:', data.message)
-      alert(`Error: ${data.message || 'Failed to submit'}`)
-      setIsSubmitting(false)
-      return
+      const data = await response.json();
+
+      if (!response.ok) {
+        console.error("Form error:", data.message);
+        alert(`Error: ${data.message || "Failed to submit"}`);
+        setIsSubmitting(false);
+        return;
+      }
+
+      setIsSubmitting(false);
+      setIsSubmitted(true);
+
+      // Reset form after 3 seconds
+      setTimeout(() => {
+        setIsSubmitted(false);
+        setFormData({
+          name: "",
+          email: "",
+          company: "",
+          property: "",
+          message: "",
+        });
+      }, 3000);
+    } catch (error) {
+      console.error("Submission error:", error);
+      alert("An error occurred. Please try again.");
+      setIsSubmitting(false);
     }
-
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-    
-    // Reset form after 3 seconds
-    setTimeout(() => {
-      setIsSubmitted(false)
-      setFormData({ name: '', email: '', company: '', property: '', message: '' })
-    }, 3000)
-  } catch (error) {
-    console.error('Submission error:', error)
-    alert('An error occurred. Please try again.')
-    setIsSubmitting(false)
-  }
-}
+  };
 
   return (
     <section
