@@ -1,22 +1,24 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { toast } from 'sonner';
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { toast } from "sonner";
 
 export function DemoForm() {
   const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState({
-    fullName: '',
-    email: '',
-    company: '',
-    propertyName: '',
-    message: '',
+    fullName: "",
+    email: "",
+    company: "",
+    propertyName: "",
+    message: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
@@ -29,30 +31,32 @@ export function DemoForm() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('/api/demo-request', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+      const response = await fetch("/api/demo-request", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
 
       const data = await response.json();
 
       if (!response.ok) {
-        toast.error(data.message || 'Failed to submit request');
+        toast.error(data.message || "Failed to submit request");
         return;
       }
 
-      toast.success('Demo request submitted! Check your email for confirmation.');
+      toast.success(
+        "Demo request submitted! Check your email for confirmation.",
+      );
       setFormData({
-        fullName: '',
-        email: '',
-        company: '',
-        propertyName: '',
-        message: '',
+        fullName: "",
+        email: "",
+        company: "",
+        propertyName: "",
+        message: "",
       });
     } catch (error) {
-      console.error('Submission error:', error);
-      toast.error('An error occurred. Please try again.');
+      console.error("Submission error:", error);
+      toast.error("An error occurred. Please try again.");
     } finally {
       setIsLoading(false);
     }
@@ -142,14 +146,19 @@ export function DemoForm() {
           className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition"
           disabled={isLoading}
         >
-          {isLoading ? 'Submitting...' : 'Request Demo'}
+          {isLoading ? "Submitting..." : "Request Demo"}
         </Button>
       </form>
 
       <div className="mt-6 pt-6 border-t border-gray-200">
         <p className="text-sm text-gray-600 mb-3">Prefer WhatsApp?</p>
         <Button
-          onClick={() => window.open('https://wa.me/27724971840?text=Hi%20Graham%2C%20I%27d%20like%20to%20request%20a%20demo%20of%20ORION%20HOTEL%20SUITE', '_blank')}
+          onClick={() =>
+            window.open(
+              "https://wa.me/27724971840?text=Hi%20Graham%2C%20I%27d%20like%20to%20request%20a%20demo%20of%20ORION%20HOTEL%20SUITE",
+              "_blank",
+            )
+          }
           className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-lg transition"
         >
           💬 Send WhatsApp Message
