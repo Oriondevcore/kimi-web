@@ -1,17 +1,17 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { db } from '@/lib/firebase';
-import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
-import { z } from 'zod';
-import { Resend } from 'resend';
+import { NextRequest, NextResponse } from "next/server";
+import { db } from "@/lib/firebase";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
+import { z } from "zod";
+import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 // Validation schema
 const demoFormSchema = z.object({
-  fullName: z.string().min(2, 'Full name is required'),
-  email: z.string().email('Invalid email address'),
-  company: z.string().min(2, 'Company name is required'),
-  propertyName: z.string().min(2, 'Property name is required'),
+  fullName: z.string().min(2, "Full name is required"),
+  email: z.string().email("Invalid email address"),
+  company: z.string().min(2, "Company name is required"),
+  propertyName: z.string().min(2, "Property name is required"),
   message: z.string().optional(),
 });
 
@@ -23,18 +23,18 @@ export async function POST(req: NextRequest) {
     const validatedData = demoFormSchema.parse(body);
 
     // Store in Firestore
-    const docRef = await addDoc(collection(db, 'demo_requests'), {
+    const docRef = await addDoc(collection(db, "demo_requests"), {
       ...validatedData,
       timestamp: serverTimestamp(),
-      userAgent: req.headers.get('user-agent'),
-      ipAddress: req.headers.get('x-forwarded-for') || req.ip,
+      userAgent: req.headers.get("user-agent"),
+      ipAddress: req.headers.get("x-forwarded-for") || req.ip,
     });
 
     // Send confirmation email to user
     await resend.emails.send({
-      from: 'ORION Demo <hello@oriondevcore.com>',
+      from: "ORION Demo <hello@oriondevcore.com>",
       to: validatedData.email,
-      subject: 'Demo Request Received - ORION HOTEL SUITE',
+      subject: "Demo Request Received - ORION HOTEL SUITE",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333;">
           <h2 style="color: #1f2937;">Thank you for requesting a demo!</h2>
@@ -64,14 +64,14 @@ export async function POST(req: NextRequest) {
 
     // Send notification email(s) to admin
     const adminEmails = [
-      'graham@oriondevcore.com',
-      'mikehunt7099@gmail.com',
-      'grahamschubach@yahoo.com',
+      "graham@oriondevcore.com",
+      "mikehunt7099@gmail.com",
+      "grahamschubach@yahoo.com",
     ];
 
     for (const adminEmail of adminEmails) {
       await resend.emails.send({
-        from: 'ORION Demo <hello@oriondevcore.com>',
+        from: "ORION Demo <hello@oriondevcore.com>",
         to: adminEmail,
         subject: `New Demo Request: ${validatedData.company}`,
         html: `
@@ -83,7 +83,7 @@ export async function POST(req: NextRequest) {
               <p style="margin: 8px 0;"><strong>Email:</strong> <a href="mailto:${validatedData.email}" style="color: #2563eb;">${validatedData.email}</a></p>
               <p style="margin: 8px 0;"><strong>Company:</strong> ${validatedData.company}</p>
               <p style="margin: 8px 0;"><strong>Property:</strong> ${validatedData.propertyName}</p>
-              ${validatedData.message ? `<p style="margin: 8px 0;"><strong>Message:</strong> ${validatedData.message}</p>` : ''}
+              ${validatedData.message ? `<p style="margin: 8px 0;"><strong>Message:</strong> ${validatedData.message}</p>` : ""}
             </div>
             
             <p><strong>📋 Quick Actions:</strong></p>
@@ -101,31 +101,31 @@ export async function POST(req: NextRequest) {
     return NextResponse.json(
       {
         success: true,
-        message: 'Demo request submitted successfully',
+        message: "Demo request submitted successfully",
         id: docRef.id,
       },
-      { status: 201 }
+      { status: 201 },
     );
   } catch (error) {
-    console.error('Form submission error:', error);
+    console.error("Form submission error:", error);
 
     if (error instanceof z.ZodError) {
       return NextResponse.json(
         {
           success: false,
-          message: 'Validation error',
+          message: "Validation error",
           errors: error.errors,
         },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
     return NextResponse.json(
       {
         success: false,
-        message: 'Failed to submit demo request',
+        message: "Failed to submit demo request",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
