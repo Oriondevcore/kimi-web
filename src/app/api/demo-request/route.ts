@@ -30,11 +30,14 @@ export async function POST(req: NextRequest) {
     const validatedData = demoFormSchema.parse(body);
 
     // Store in Firestore
+    const ipHeader = req.headers.get("x-forwarded-for");
+    const ipAddress = ipHeader ? ipHeader.split(",")[0].trim() : null;
+
     const docRef = await addDoc(collection(db, "demo_requests"), {
       ...validatedData,
       timestamp: serverTimestamp(),
       userAgent: req.headers.get("user-agent"),
-      ipAddress: req.headers.get("x-forwarded-for") || req.ip,
+      ipAddress,
     });
 
     // Send confirmation email to user
@@ -109,11 +112,12 @@ export async function POST(req: NextRequest) {
     console.error("Form submission error:", error);
 
     if (error instanceof z.ZodError) {
+      // ZodError exposes its validation problems via `issues`
       return NextResponse.json(
         {
           success: false,
           message: "Validation error",
-          errors: error.errors,
+          errors: error.issues,
         },
         { status: 400 },
       );
