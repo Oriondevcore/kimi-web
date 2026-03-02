@@ -2,9 +2,16 @@ import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/lib/firebase";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { z } from "zod";
-import { Resend } from "resend";
+import nodemailer from "nodemailer";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Configure Nodemailer with Gmail
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_APP_PASSWORD,
+  },
+});
 
 // Validation schema
 const demoFormSchema = z.object({
@@ -23,19 +30,19 @@ export async function POST(req: NextRequest) {
     const validatedData = demoFormSchema.parse(body);
 
     // Store in Firestore
-    const ipHeader = req.headers.get("x-forwarded-for");
-    const ipAddress = ipHeader ? ipHeader.split(",")[0].trim() : null;
-
     const docRef = await addDoc(collection(db, "demo_requests"), {
       ...validatedData,
       timestamp: serverTimestamp(),
       userAgent: req.headers.get("user-agent"),
-      ipAddress,
+      ipAddress:
+        req.headers.get("x-forwarded-for") ||
+        req.headers.get("cf-connecting-ip") ||
+        "unknown",
     });
 
-    // Send confirmation email to user via Resend
-    await resend.emails.send({
-      from: "ORION Demo <onboarding@resend.dev>",
+    // Send confirmation email to user
+    await transporter.sendMail({
+      from: `ORION Demo <${process.env.GMAIL_USER}>`,
       to: validatedData.email,
       subject: "Demo Request Received - ORION HOTEL SUITE",
       html: `
@@ -65,10 +72,10 @@ export async function POST(req: NextRequest) {
       `,
     });
 
-    // Send notification email to admin via Resend
-    await resend.emails.send({
-      from: "ORION Demo <onboarding@resend.dev>",
-      to: "graham@oriondevcore.com",
+    // Send notification email to admin (single email to Graham)
+    await transporter.sendMail({
+      from: `ORION Demo <${process.env.GMAIL_USER}>`,
+      to: process.env.GMAIL_USER, // mikehunt7099@gmail.com (forwarded from Cloudflare)
       subject: `🎉 New Demo Request: ${validatedData.company}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333;">
