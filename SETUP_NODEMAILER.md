@@ -96,6 +96,7 @@ User sees success toast
 ## Troubleshooting
 
 ### "Gmail says password is wrong"
+
 - Make sure you generated an **app password** (not regular password)
 - Go to [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)
 - Select "Mail" + "Windows Computer"
@@ -103,6 +104,7 @@ User sees success toast
 - Add to `.env.local`: `GMAIL_APP_PASSWORD=your_16_char_password`
 
 ### "Emails not sending"
+
 1. Check `.env.local` has both `GMAIL_USER` and `GMAIL_APP_PASSWORD`
 2. Check browser console for errors
 3. Check `npm run dev` terminal for error logs
@@ -113,6 +115,7 @@ node -e "const nodemailer = require('nodemailer'); const t = nodemailer.createTr
 ```
 
 ### "Firestore error"
+
 - Make sure Firebase credentials are correct
 - Make sure Firestore rules allow `create` on `demo_requests` collection
 
@@ -121,11 +124,13 @@ node -e "const nodemailer = require('nodemailer'); const t = nodemailer.createTr
 ## Security Notes
 
 ⚠️ **What's Secure:**
+
 - App password = specific to Gmail apps only (not your main password)
 - Never stored in code, only in `.env.local`
 - `.gitignore` prevents accidental commit
 
 ⚠️ **What to Watch:**
+
 - Keep `.env.local` out of GitHub
 - Don't share this file
 - If compromised, regenerate Gmail app password
