@@ -15,15 +15,28 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ORION DEV CORE | Revenue Intelligence for Hospitality",
-  description: "Built in Africa. Engineered for Impact. ORION HOTEL SUITE delivers 5-17% measurable revenue increase through AI-powered optimization. Revenue Intelligence solutions for hotels.",
-  keywords: ["ORION DEV CORE", "Revenue Intelligence", "Hospitality Technology", "Hotel Revenue Management", "AI for Hotels", "RACK RATE", "South Africa", "Hotel Software", "RevPAR", "Guest Onboarding"],
+  description:
+    "Built in Africa. Engineered for Impact. ORION HOTEL SUITE delivers 5-17% measurable revenue increase through AI-powered optimization. Revenue Intelligence solutions for hotels.",
+  keywords: [
+    "ORION DEV CORE",
+    "Revenue Intelligence",
+    "Hospitality Technology",
+    "Hotel Revenue Management",
+    "AI for Hotels",
+    "RACK RATE",
+    "South Africa",
+    "Hotel Software",
+    "RevPAR",
+    "Guest Onboarding",
+  ],
   authors: [{ name: "ORION DEV CORE", url: "https://oriondevcore.com" }],
   icons: {
     icon: "/favicon.png",
   },
   openGraph: {
     title: "ORION DEV CORE | Revenue Intelligence for Hospitality",
-    description: "Built in Africa. Engineered for Impact. 5-17% measurable revenue increase through AI-powered optimization.",
+    description:
+      "Built in Africa. Engineered for Impact. 5-17% measurable revenue increase through AI-powered optimization.",
     url: "https://oriondevcore.com",
     siteName: "ORION DEV CORE",
     type: "website",
@@ -32,7 +45,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "ORION DEV CORE | Revenue Intelligence for Hospitality",
-    description: "Built in Africa. Engineered for Impact. 5-17% measurable revenue increase through AI-powered optimization.",
+    description:
+      "Built in Africa. Engineered for Impact. 5-17% measurable revenue increase through AI-powered optimization.",
     creator: "@oriondevcore",
   },
   robots: {
@@ -53,6 +67,25 @@ export default function RootLayout({
       >
         {children}
         <Toaster />
+      </body>
+    </html>
+  );
+}
+import { Analytics } from "@vercel/analytics/next";
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <head>
+        <title>Next.js</title>
+      </head>
+      <body>
+        {children}
+        <Analytics />
       </body>
     </html>
   );
