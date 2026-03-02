@@ -427,7 +427,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node
 var __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$route$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Route$3e$__ = __turbopack_context__.i("[project]/Music/kimi-web/node_modules/lucide-react/dist/esm/icons/route.js [app-ssr] (ecmascript) <export default as Route>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Eye$3e$__ = __turbopack_context__.i("[project]/Music/kimi-web/node_modules/lucide-react/dist/esm/icons/eye.js [app-ssr] (ecmascript) <export default as Eye>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__ = __turbopack_context__.i("[project]/Music/kimi-web/node_modules/lucide-react/dist/esm/icons/compass.js [app-ssr] (ecmascript) <export default as Compass>");
-'use client';
+"use client";
 ;
 ;
 ;
@@ -447,33 +447,33 @@ function Navigation() {
         const handleScroll = ()=>{
             setIsScrolled(window.scrollY > 50);
         };
-        window.addEventListener('scroll', handleScroll);
-        return ()=>window.removeEventListener('scroll', handleScroll);
+        window.addEventListener("scroll", handleScroll);
+        return ()=>window.removeEventListener("scroll", handleScroll);
     }, []);
     const navLinks = [
         {
-            href: '#features',
-            label: 'Features'
+            href: "#features",
+            label: "Features"
         },
         {
-            href: '#products',
-            label: 'Products'
+            href: "#products",
+            label: "Products"
         },
         {
-            href: '#dashboard',
-            label: 'Dashboard'
+            href: "#dashboard",
+            label: "Dashboard"
         },
         {
-            href: '#about',
-            label: 'About'
+            href: "#about",
+            label: "About"
         },
         {
-            href: '#contact',
-            label: 'Contact'
+            href: "#contact",
+            label: "Contact"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        className: `fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#0F172A]/95 backdrop-blur-md shadow-lg' : 'bg-transparent'}`,
+        className: `fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-[#0F172A]/95 backdrop-blur-md shadow-lg" : "bg-transparent"}`,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: [
@@ -492,12 +492,12 @@ function Navigation() {
                                         className: "w-full h-full object-contain rounded-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 91,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 82,
+                                    lineNumber: 90,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -508,7 +508,7 @@ function Navigation() {
                                             children: "ORION"
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 98,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -516,19 +516,19 @@ function Navigation() {
                                             children: "DEV CORE"
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 91,
+                                            lineNumber: 101,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 89,
+                                    lineNumber: 97,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 81,
+                            lineNumber: 89,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -540,7 +540,7 @@ function Navigation() {
                                         children: link.label
                                     }, link.href, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 110,
                                         columnNumber: 15
                                     }, this)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -548,13 +548,13 @@ function Navigation() {
                                     children: "Request Demo"
                                 }, void 0, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 118,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 96,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -564,24 +564,24 @@ function Navigation() {
                                 className: "w-6 h-6"
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 116,
-                                columnNumber: 33
+                                lineNumber: 129,
+                                columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 className: "w-6 h-6"
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 116,
-                                columnNumber: 61
+                                lineNumber: 131,
+                                columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 112,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 79,
+                    lineNumber: 87,
                     columnNumber: 9
                 }, this),
                 isMobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -596,7 +596,7 @@ function Navigation() {
                                     children: link.label
                                 }, link.href, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 125,
+                                    lineNumber: 141,
                                     columnNumber: 17
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -604,29 +604,29 @@ function Navigation() {
                                 children: "Request Demo"
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 134,
+                                lineNumber: 150,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 123,
+                        lineNumber: 139,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 122,
+                    lineNumber: 138,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-            lineNumber: 78,
+            lineNumber: 86,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 73,
+        lineNumber: 79,
         columnNumber: 5
     }, this);
 }
@@ -644,20 +644,20 @@ function HeroSection() {
                         className: "w-full h-full object-cover"
                     }, void 0, false, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 151,
+                        lineNumber: 167,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-gradient-to-br from-[#0F172A]/95 via-[#0F172A]/90 to-[#0B1220]/95"
                     }, void 0, false, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 156,
+                        lineNumber: 172,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 150,
+                lineNumber: 166,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -667,20 +667,20 @@ function HeroSection() {
                         className: "absolute top-1/4 left-1/4 w-96 h-96 bg-[#D4A84B]/10 rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 161,
+                        lineNumber: 177,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#2D8B8B]/10 rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 162,
+                        lineNumber: 178,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 160,
+                lineNumber: 176,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -696,7 +696,7 @@ function HeroSection() {
                                         className: "w-4 h-4 text-[#D4A84B]"
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 170,
+                                        lineNumber: 186,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -704,13 +704,13 @@ function HeroSection() {
                                         children: "Built in Africa. Engineered for Impact."
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 187,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 169,
+                                lineNumber: 185,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -719,7 +719,7 @@ function HeroSection() {
                                     "Agentic AI for",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 177,
+                                        lineNumber: 195,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -727,13 +727,13 @@ function HeroSection() {
                                         children: "African Hospitality"
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 178,
+                                        lineNumber: 196,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 175,
+                                lineNumber: 193,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -744,7 +744,7 @@ function HeroSection() {
                                         children: "IMAGINE."
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 183,
+                                        lineNumber: 201,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -752,7 +752,7 @@ function HeroSection() {
                                         children: "AMPLIFY."
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 184,
+                                        lineNumber: 202,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -760,13 +760,13 @@ function HeroSection() {
                                         children: "CONNECT."
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 185,
+                                        lineNumber: 203,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 182,
+                                lineNumber: 200,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -777,15 +777,18 @@ function HeroSection() {
                                         children: "Proactive Intelligence."
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 190,
+                                        lineNumber: 208,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-[#2D8B8B] font-semibold",
-                                        children: " Local Languages."
-                                    }, void 0, false, {
+                                        children: [
+                                            " ",
+                                            "Local Languages."
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 191,
+                                        lineNumber: 211,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -793,28 +796,30 @@ function HeroSection() {
                                         children: " Real Impact."
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 192,
+                                        lineNumber: 215,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 193,
+                                        lineNumber: 216,
                                         columnNumber: 13
                                     }, this),
-                                    "ORION HOTEL SUITE delivers ",
+                                    "ORION HOTEL SUITE delivers",
+                                    " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-[#D4A84B] font-semibold",
                                         children: "5-17% measurable revenue increase"
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 194,
-                                        columnNumber: 40
+                                        lineNumber: 218,
+                                        columnNumber: 13
                                     }, this),
-                                    " through AI-powered optimization that anticipates needs before they become problems."
+                                    " ",
+                                    "through AI-powered optimization that anticipates needs before they become problems."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 189,
+                                lineNumber: 207,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -829,13 +834,13 @@ function HeroSection() {
                                                 className: "w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 202,
+                                                lineNumber: 232,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 200,
+                                        lineNumber: 227,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -845,13 +850,13 @@ function HeroSection() {
                                         children: "Watch Video"
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 204,
+                                        lineNumber: 234,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 199,
+                                lineNumber: 226,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -865,7 +870,7 @@ function HeroSection() {
                                                 children: "5-17%"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 212,
+                                                lineNumber: 246,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -873,13 +878,13 @@ function HeroSection() {
                                                 children: "Revenue Increase"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 213,
+                                                lineNumber: 249,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 211,
+                                        lineNumber: 245,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -890,7 +895,7 @@ function HeroSection() {
                                                 children: "8+"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 216,
+                                                lineNumber: 254,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -898,13 +903,13 @@ function HeroSection() {
                                                 children: "African Languages"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 217,
+                                                lineNumber: 257,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 215,
+                                        lineNumber: 253,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -915,7 +920,7 @@ function HeroSection() {
                                                 children: "Agentic"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 220,
+                                                lineNumber: 262,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -923,13 +928,13 @@ function HeroSection() {
                                                 children: "Proactive AI"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 221,
+                                                lineNumber: 265,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 219,
+                                        lineNumber: 261,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -940,7 +945,7 @@ function HeroSection() {
                                                 children: "100%"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 224,
+                                                lineNumber: 270,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -948,25 +953,25 @@ function HeroSection() {
                                                 children: "Provable Results"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 225,
+                                                lineNumber: 273,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 223,
+                                        lineNumber: 269,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 210,
+                                lineNumber: 244,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 167,
+                        lineNumber: 183,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -977,29 +982,29 @@ function HeroSection() {
                                 className: "w-1 h-2 bg-[#D4A84B] rounded-full"
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 233,
+                                lineNumber: 283,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 232,
+                            lineNumber: 282,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 231,
+                        lineNumber: 281,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 166,
+                lineNumber: 182,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 148,
+        lineNumber: 164,
         columnNumber: 5
     }, this);
 }
@@ -1019,12 +1024,12 @@ function AgenticAISection() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 247,
+                    lineNumber: 300,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 246,
+                lineNumber: 299,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1045,14 +1050,14 @@ function AgenticAISection() {
                                                     className: "w-3 h-3 mr-1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 259,
+                                                    lineNumber: 318,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Proactive Intelligence"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 258,
+                                            lineNumber: 314,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1061,27 +1066,27 @@ function AgenticAISection() {
                                                 "Not Just AI—",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 263,
-                                                    columnNumber: 29
+                                                    lineNumber: 323,
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "gradient-text",
                                                     children: "Intelligence That Cares"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 264,
+                                                    lineNumber: 324,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 262,
+                                            lineNumber: 321,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 257,
+                                    lineNumber: 313,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1089,33 +1094,35 @@ function AgenticAISection() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: [
-                                                "Most hospitality AI waits for problems to happen, then responds. ORION's ",
+                                                "Most hospitality AI waits for problems to happen, then responds. ORION's",
+                                                " ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-[#D4A84B] font-semibold",
                                                     children: "Agentic AI"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 270,
-                                                    columnNumber: 95
+                                                    lineNumber: 332,
+                                                    columnNumber: 17
                                                 }, this),
-                                                " is fundamentally different—it anticipates needs before they become problems. It's not reactive; it's proactive. It doesn't just respond; it predicts and prevents."
+                                                " ",
+                                                "is fundamentally different—it anticipates needs before they become problems. It's not reactive; it's proactive. It doesn't just respond; it predicts and prevents."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 269,
+                                            lineNumber: 329,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Imagine an AI that warns guests about upcoming load shedding and suggests ordering dinner beforehand. An AI that notices a pattern of maintenance issues in Room 312 before the guest complains. An AI that sees a guest's birthday is tomorrow and prompts your team to prepare something special. This isn't artificial intelligence that replaces human judgment—it's intelligence that amplifies your team's ability to deliver extraordinary experiences."
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 272,
+                                            lineNumber: 337,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 268,
+                                    lineNumber: 328,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1128,7 +1135,7 @@ function AgenticAISection() {
                                                     className: "w-6 h-6 text-[#D4A84B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 280,
+                                                    lineNumber: 352,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1136,7 +1143,7 @@ function AgenticAISection() {
                                                     children: "Predictive Alerts"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 281,
+                                                    lineNumber: 353,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1144,13 +1151,13 @@ function AgenticAISection() {
                                                     children: "Anticipate issues before guests notice them"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 354,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 279,
+                                            lineNumber: 351,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1160,7 +1167,7 @@ function AgenticAISection() {
                                                     className: "w-6 h-6 text-[#2D8B8B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 285,
+                                                    lineNumber: 359,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1168,7 +1175,7 @@ function AgenticAISection() {
                                                     children: "Proactive Actions"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 286,
+                                                    lineNumber: 360,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1176,13 +1183,13 @@ function AgenticAISection() {
                                                     children: "AI that acts, not just suggests"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 287,
+                                                    lineNumber: 361,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 284,
+                                            lineNumber: 358,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1192,7 +1199,7 @@ function AgenticAISection() {
                                                     className: "w-6 h-6 text-[#D4A84B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 290,
+                                                    lineNumber: 366,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1200,7 +1207,7 @@ function AgenticAISection() {
                                                     children: "Load Shedding Aware"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 291,
+                                                    lineNumber: 367,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1208,13 +1215,13 @@ function AgenticAISection() {
                                                     children: "Built for African infrastructure realities"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 292,
+                                                    lineNumber: 370,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 289,
+                                            lineNumber: 365,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1224,7 +1231,7 @@ function AgenticAISection() {
                                                     className: "w-6 h-6 text-[#2D8B8B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 295,
+                                                    lineNumber: 375,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1232,7 +1239,7 @@ function AgenticAISection() {
                                                     children: "Human-Centered"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 296,
+                                                    lineNumber: 376,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1240,25 +1247,25 @@ function AgenticAISection() {
                                                     children: "AI that uplifts humanity, not replaces it"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 297,
+                                                    lineNumber: 377,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 294,
+                                            lineNumber: 374,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 278,
+                                    lineNumber: 350,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 256,
+                            lineNumber: 312,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1277,12 +1284,12 @@ function AgenticAISection() {
                                                         className: "w-5 h-5 text-[#D4A84B]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 308,
+                                                        lineNumber: 390,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 307,
+                                                    lineNumber: 389,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1292,7 +1299,7 @@ function AgenticAISection() {
                                                             children: "ORION AI Assistant"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 311,
+                                                            lineNumber: 393,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -1300,24 +1307,24 @@ function AgenticAISection() {
                                                             children: "Proactive Intelligence Engine"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 312,
+                                                            lineNumber: 396,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 310,
+                                                    lineNumber: 392,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 306,
+                                            lineNumber: 388,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 305,
+                                        lineNumber: 387,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1333,7 +1340,7 @@ function AgenticAISection() {
                                                                 className: "w-4 h-4 text-[#D4A84B]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 320,
+                                                                lineNumber: 406,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1341,13 +1348,13 @@ function AgenticAISection() {
                                                                 children: "Proactive Alert"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 321,
+                                                                lineNumber: 407,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 319,
+                                                        lineNumber: 405,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1355,13 +1362,13 @@ function AgenticAISection() {
                                                         children: "Load shedding scheduled for Stage 4, 18:00-20:30. Guest in Room 215 ordered dinner at 17:45—suggest notifying kitchen to prioritize."
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 323,
+                                                        lineNumber: 411,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 318,
+                                                lineNumber: 404,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1374,7 +1381,7 @@ function AgenticAISection() {
                                                                 className: "w-4 h-4 text-[#2D8B8B]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 331,
+                                                                lineNumber: 421,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1382,13 +1389,13 @@ function AgenticAISection() {
                                                                 children: "Opportunity Detected"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 332,
+                                                                lineNumber: 422,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 330,
+                                                        lineNumber: 420,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1396,13 +1403,13 @@ function AgenticAISection() {
                                                         children: "Guest in Suite 402 mentioned anniversary in pre-stay survey. Tomorrow is the date. Room upgrade available—recommend champagne on arrival."
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 334,
+                                                        lineNumber: 426,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 329,
+                                                lineNumber: 419,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1415,7 +1422,7 @@ function AgenticAISection() {
                                                                 className: "w-4 h-4 text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 342,
+                                                                lineNumber: 436,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1423,13 +1430,13 @@ function AgenticAISection() {
                                                                 children: "Predictive Analysis"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 343,
+                                                                lineNumber: 437,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 341,
+                                                        lineNumber: 435,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1437,13 +1444,13 @@ function AgenticAISection() {
                                                         children: "Room 312 AC showing 15% efficiency drop over 3 days. Predicted failure: 72 hours. Proactive maintenance ticket created."
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 345,
+                                                        lineNumber: 441,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 340,
+                                                lineNumber: 434,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1456,7 +1463,7 @@ function AgenticAISection() {
                                                                 className: "w-2 h-2 rounded-full bg-green-500 animate-pulse"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 353,
+                                                                lineNumber: 451,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1464,13 +1471,13 @@ function AgenticAISection() {
                                                                 children: "AI Active"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 354,
+                                                                lineNumber: 452,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 352,
+                                                        lineNumber: 450,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1478,47 +1485,47 @@ function AgenticAISection() {
                                                         children: "Last update: 2 min ago"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 356,
+                                                        lineNumber: 454,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 351,
+                                                lineNumber: 449,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 316,
+                                        lineNumber: 402,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 304,
+                                lineNumber: 386,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 303,
+                            lineNumber: 385,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 254,
+                    lineNumber: 310,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 253,
+                lineNumber: 309,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 244,
+        lineNumber: 294,
         columnNumber: 5
     }, this);
 }
@@ -1526,44 +1533,44 @@ function AgenticAISection() {
 function AfricanLanguagesSection() {
     const languages = [
         {
-            name: 'Zulu',
-            native: 'isiZulu',
-            speakers: '12M+'
+            name: "Zulu",
+            native: "isiZulu",
+            speakers: "12M+"
         },
         {
-            name: 'Xhosa',
-            native: 'isiXhosa',
-            speakers: '8M+'
+            name: "Xhosa",
+            native: "isiXhosa",
+            speakers: "8M+"
         },
         {
-            name: 'Afrikaans',
-            native: 'Afrikaans',
-            speakers: '7M+'
+            name: "Afrikaans",
+            native: "Afrikaans",
+            speakers: "7M+"
         },
         {
-            name: 'Sotho',
-            native: 'Sesotho',
-            speakers: '5M+'
+            name: "Sotho",
+            native: "Sesotho",
+            speakers: "5M+"
         },
         {
-            name: 'Tswana',
-            native: 'Setswana',
-            speakers: '4M+'
+            name: "Tswana",
+            native: "Setswana",
+            speakers: "4M+"
         },
         {
-            name: 'Venda',
-            native: 'Tshivenda',
-            speakers: '1.2M+'
+            name: "Venda",
+            native: "Tshivenda",
+            speakers: "1.2M+"
         },
         {
-            name: 'Tsonga',
-            native: 'Xitsonga',
-            speakers: '2.3M+'
+            name: "Tsonga",
+            native: "Xitsonga",
+            speakers: "2.3M+"
         },
         {
-            name: 'Ndebele',
-            native: 'isiNdebele',
-            speakers: '1.1M+'
+            name: "Ndebele",
+            native: "isiNdebele",
+            speakers: "1.1M+"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1586,14 +1593,14 @@ function AfricanLanguagesSection() {
                                                 className: "w-3 h-3 mr-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 388,
+                                                lineNumber: 491,
                                                 columnNumber: 17
                                             }, this),
                                             "Local Language Support"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 387,
+                                        lineNumber: 487,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1602,7 +1609,7 @@ function AfricanLanguagesSection() {
                                             "Speaking Your Guests'",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 393,
+                                                lineNumber: 496,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1610,19 +1617,19 @@ function AfricanLanguagesSection() {
                                                 children: "Language—Literally"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 394,
+                                                lineNumber: 497,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 391,
+                                        lineNumber: 494,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 386,
+                                lineNumber: 486,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1632,31 +1639,32 @@ function AfricanLanguagesSection() {
                                         children: "In South Africa, hospitality is personal. It's about making every guest feel at home, regardless of where home is. ORION's African Language Support isn't just translation—it's cultural intelligence. When a Zulu-speaking guest arrives in Durban, they should be greeted in isiZulu. When a Xhosa family celebrates a wedding in Cape Town, your team should have the tools to make them feel truly welcome."
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 399,
+                                        lineNumber: 502,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
-                                            "Our platform supports ",
+                                            "Our platform supports",
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[#D4A84B] font-semibold",
                                                 children: "8+ indigenous African languages"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 403,
-                                                columnNumber: 39
+                                                lineNumber: 513,
+                                                columnNumber: 17
                                             }, this),
                                             ", enabling your staff to communicate authentically with guests in their mother tongue. This isn't about checking diversity boxes—it's about delivering the warmth and hospitality that South Africa is famous for, in the languages that make it meaningful."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 402,
+                                        lineNumber: 511,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 398,
+                                lineNumber: 501,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1669,7 +1677,7 @@ function AfricanLanguagesSection() {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 410,
+                                                lineNumber: 527,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1677,13 +1685,13 @@ function AfricanLanguagesSection() {
                                                 children: "Native Language Greetings"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 411,
+                                                lineNumber: 528,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 409,
+                                        lineNumber: 526,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1693,7 +1701,7 @@ function AfricanLanguagesSection() {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 414,
+                                                lineNumber: 533,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1701,13 +1709,13 @@ function AfricanLanguagesSection() {
                                                 children: "Cultural Context"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 415,
+                                                lineNumber: 534,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 413,
+                                        lineNumber: 532,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1717,7 +1725,7 @@ function AfricanLanguagesSection() {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 418,
+                                                lineNumber: 537,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1725,25 +1733,25 @@ function AfricanLanguagesSection() {
                                                 children: "Staff Translation Tools"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 419,
+                                                lineNumber: 538,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 417,
+                                        lineNumber: 536,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 408,
+                                lineNumber: 525,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 385,
+                        lineNumber: 485,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1757,7 +1765,7 @@ function AfricanLanguagesSection() {
                                             className: "w-6 h-6 text-[#2D8B8B] mx-auto mb-2"
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 429,
+                                            lineNumber: 553,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1765,7 +1773,7 @@ function AfricanLanguagesSection() {
                                             children: lang.name
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 430,
+                                            lineNumber: 554,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1773,7 +1781,7 @@ function AfricanLanguagesSection() {
                                             children: lang.native
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 431,
+                                            lineNumber: 555,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1784,39 +1792,39 @@ function AfricanLanguagesSection() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 432,
+                                            lineNumber: 556,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 428,
+                                    lineNumber: 552,
                                     columnNumber: 17
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 427,
+                                lineNumber: 548,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 425,
+                        lineNumber: 546,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 383,
+                lineNumber: 483,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-            lineNumber: 382,
+            lineNumber: 482,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 381,
+        lineNumber: 481,
         columnNumber: 5
     }, this);
 }
@@ -1832,20 +1840,20 @@ function GhostLANSection() {
                         className: "absolute top-1/3 right-1/4 w-64 h-64 bg-[#D4A84B]/5 rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 449,
+                        lineNumber: 575,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute bottom-1/3 left-1/4 w-64 h-64 bg-[#2D8B8B]/5 rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 450,
+                        lineNumber: 576,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 448,
+                lineNumber: 574,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1866,14 +1874,14 @@ function GhostLANSection() {
                                                     className: "w-3 h-3 mr-1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 459,
+                                                    lineNumber: 588,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Exclusive Technology"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 458,
+                                            lineNumber: 584,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1882,7 +1890,7 @@ function GhostLANSection() {
                                                 "GHOST LAN",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 464,
+                                                    lineNumber: 593,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1890,19 +1898,19 @@ function GhostLANSection() {
                                                     children: "Revolutionary Routing"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 465,
+                                                    lineNumber: 594,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 462,
+                                            lineNumber: 591,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 457,
+                                    lineNumber: 583,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1910,33 +1918,35 @@ function GhostLANSection() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: [
-                                                "Traditional ticket routing goes through managers, dispatchers, and departments—adding precious minutes to every response. ",
+                                                "Traditional ticket routing goes through managers, dispatchers, and departments—adding precious minutes to every response.",
+                                                " ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-[#D4A84B] font-semibold",
                                                     children: "GHOST LAN"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 471,
-                                                    columnNumber: 139
+                                                    lineNumber: 602,
+                                                    columnNumber: 17
                                                 }, this),
-                                                " changes everything. Our revolutionary routing system uses phone MAC addresses and IP detection to route tickets directly to the nearest available staff member."
+                                                " ",
+                                                "changes everything. Our revolutionary routing system uses phone MAC addresses and IP detection to route tickets directly to the nearest available staff member."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 470,
+                                            lineNumber: 599,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "When a guest reports a maintenance issue, GHOST LAN identifies which maintenance staff member is closest to that room and assigns the ticket instantly. No middleman. No delays. The right person, in the right place, at the right time—every single time. This isn't just operational efficiency; it's guest experience transformation."
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 473,
+                                            lineNumber: 607,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 469,
+                                    lineNumber: 598,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1949,7 +1959,7 @@ function GhostLANSection() {
                                                     className: "w-6 h-6 text-[#D4A84B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 481,
+                                                    lineNumber: 620,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1957,7 +1967,7 @@ function GhostLANSection() {
                                                     children: "Direct Routing"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 482,
+                                                    lineNumber: 621,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1965,13 +1975,13 @@ function GhostLANSection() {
                                                     children: "Bypass the middleman completely"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 483,
+                                                    lineNumber: 622,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 480,
+                                            lineNumber: 619,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1981,7 +1991,7 @@ function GhostLANSection() {
                                                     className: "w-6 h-6 text-[#2D8B8B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 486,
+                                                    lineNumber: 627,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1989,7 +1999,7 @@ function GhostLANSection() {
                                                     children: "Location Aware"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 487,
+                                                    lineNumber: 628,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1997,13 +2007,13 @@ function GhostLANSection() {
                                                     children: "Find the closest staff instantly"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 488,
+                                                    lineNumber: 629,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 485,
+                                            lineNumber: 626,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2013,7 +2023,7 @@ function GhostLANSection() {
                                                     className: "w-6 h-6 text-[#D4A84B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 491,
+                                                    lineNumber: 634,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -2021,7 +2031,7 @@ function GhostLANSection() {
                                                     children: "Sub-Second"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 492,
+                                                    lineNumber: 635,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2029,25 +2039,25 @@ function GhostLANSection() {
                                                     children: "Ticket assignment in milliseconds"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 493,
+                                                    lineNumber: 636,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 490,
+                                            lineNumber: 633,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 479,
+                                    lineNumber: 618,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 456,
+                            lineNumber: 582,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -2064,12 +2074,12 @@ function GhostLANSection() {
                                                     className: "w-5 h-5 text-[#D4A84B]"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 503,
+                                                    lineNumber: 648,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 502,
+                                                lineNumber: 647,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2079,7 +2089,7 @@ function GhostLANSection() {
                                                         children: "GHOST LAN Active"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 506,
+                                                        lineNumber: 651,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -2087,24 +2097,24 @@ function GhostLANSection() {
                                                         children: "Real-time staff positioning"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 507,
+                                                        lineNumber: 654,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 505,
+                                                lineNumber: 650,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 501,
+                                        lineNumber: 646,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 500,
+                                    lineNumber: 645,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -2121,12 +2131,12 @@ function GhostLANSection() {
                                                             className: "rounded bg-white/5 border border-white/10"
                                                         }, i, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 517,
+                                                            lineNumber: 666,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 515,
+                                                    lineNumber: 664,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2134,7 +2144,7 @@ function GhostLANSection() {
                                                     title: "Staff: Thabo"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 522,
+                                                    lineNumber: 674,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2142,7 +2152,7 @@ function GhostLANSection() {
                                                     title: "Staff: Nomsa"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 523,
+                                                    lineNumber: 678,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2150,7 +2160,7 @@ function GhostLANSection() {
                                                     title: "Staff: Johan (Assigned)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 524,
+                                                    lineNumber: 682,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2160,12 +2170,12 @@ function GhostLANSection() {
                                                         children: "!"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 528,
+                                                        lineNumber: 689,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 527,
+                                                    lineNumber: 688,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2178,20 +2188,20 @@ function GhostLANSection() {
                                                                     className: "w-2 h-2 rounded-full bg-[#2D8B8B]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 534,
+                                                                    lineNumber: 695,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     children: "Available"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 535,
+                                                                    lineNumber: 696,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 533,
+                                                            lineNumber: 694,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2201,20 +2211,20 @@ function GhostLANSection() {
                                                                     className: "w-2 h-2 rounded-full bg-[#D4A84B]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 538,
+                                                                    lineNumber: 699,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     children: "Assigned"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 539,
+                                                                    lineNumber: 700,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 537,
+                                                            lineNumber: 698,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2224,32 +2234,32 @@ function GhostLANSection() {
                                                                     className: "w-2 h-2 rounded-full bg-red-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 542,
+                                                                    lineNumber: 703,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     children: "Request"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 543,
+                                                                    lineNumber: 704,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 541,
+                                                            lineNumber: 702,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 532,
+                                                    lineNumber: 693,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 513,
+                                            lineNumber: 662,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2263,7 +2273,7 @@ function GhostLANSection() {
                                                             children: "Room 312 - Maintenance"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 551,
+                                                            lineNumber: 712,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2271,13 +2281,13 @@ function GhostLANSection() {
                                                             children: "Assigned to Johan (8m away)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 552,
+                                                            lineNumber: 713,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 550,
+                                                    lineNumber: 711,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2288,7 +2298,7 @@ function GhostLANSection() {
                                                             children: "Room 405 - Housekeeping"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 555,
+                                                            lineNumber: 718,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2296,48 +2306,48 @@ function GhostLANSection() {
                                                             children: "Assigned to Nomsa (12m away)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 556,
+                                                            lineNumber: 719,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 554,
+                                                    lineNumber: 717,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 549,
+                                            lineNumber: 710,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 511,
+                                    lineNumber: 660,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 499,
+                            lineNumber: 644,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 454,
+                    lineNumber: 580,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 453,
+                lineNumber: 579,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 446,
+        lineNumber: 572,
         columnNumber: 5
     }, this);
 }
@@ -2363,14 +2373,14 @@ function AIVisionSection() {
                                                 className: "w-3 h-3 mr-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 577,
+                                                lineNumber: 745,
                                                 columnNumber: 17
                                             }, this),
                                             "AI Vision Technology"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 576,
+                                        lineNumber: 741,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2379,7 +2389,7 @@ function AIVisionSection() {
                                             "Snap a Photo,",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 582,
+                                                lineNumber: 750,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2387,19 +2397,19 @@ function AIVisionSection() {
                                                 children: "Problem Solved"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 583,
+                                                lineNumber: 751,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 580,
+                                        lineNumber: 748,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 575,
+                                lineNumber: 740,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2407,33 +2417,35 @@ function AIVisionSection() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
-                                            'Gone are the days of guests struggling to describe maintenance issues over the phone. "There\'s something wrong with the bathroom thing" becomes crystal clear when your guest simply snaps a photo. Our ',
+                                            'Gone are the days of guests struggling to describe maintenance issues over the phone. "There\'s something wrong with the bathroom thing" becomes crystal clear when your guest simply snaps a photo. Our',
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[#D4A84B] font-semibold",
                                                 children: "AI Vision technology"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 589,
-                                                columnNumber: 232
+                                                lineNumber: 761,
+                                                columnNumber: 17
                                             }, this),
-                                            " analyzes the image, identifies the problem, categorizes the severity, and automatically creates a detailed maintenance ticket."
+                                            " ",
+                                            "analyzes the image, identifies the problem, categorizes the severity, and automatically creates a detailed maintenance ticket."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 588,
+                                        lineNumber: 756,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "The AI recognizes everything from leaky faucets and broken air conditioning units to electrical issues and furniture damage. It estimates repair time, identifies the right tools and parts needed, and routes the ticket to the most qualified staff member through GHOST LAN. What used to take 15 minutes of back-and-forth phone calls now happens in seconds—with photographic documentation for your records."
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 591,
+                                        lineNumber: 768,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 587,
+                                lineNumber: 755,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2444,7 +2456,7 @@ function AIVisionSection() {
                                         children: "How It Works"
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 598,
+                                        lineNumber: 781,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2460,12 +2472,12 @@ function AIVisionSection() {
                                                             children: "1"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 602,
+                                                            lineNumber: 785,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 601,
+                                                        lineNumber: 784,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2474,18 +2486,18 @@ function AIVisionSection() {
                                                             children: "Guest photographs the issue through ORION mobile app or WhatsApp"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 605,
+                                                            lineNumber: 788,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 604,
+                                                        lineNumber: 787,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 600,
+                                                lineNumber: 783,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2498,12 +2510,12 @@ function AIVisionSection() {
                                                             children: "2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 610,
+                                                            lineNumber: 796,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 609,
+                                                        lineNumber: 795,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2512,18 +2524,18 @@ function AIVisionSection() {
                                                             children: "AI analyzes image, identifies problem type and severity"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 613,
+                                                            lineNumber: 799,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 612,
+                                                        lineNumber: 798,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 608,
+                                                lineNumber: 794,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2536,12 +2548,12 @@ function AIVisionSection() {
                                                             children: "3"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 618,
+                                                            lineNumber: 806,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 617,
+                                                        lineNumber: 805,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2550,36 +2562,36 @@ function AIVisionSection() {
                                                             children: "Automatic ticket creation with GHOST LAN routing to nearest qualified staff"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 621,
+                                                            lineNumber: 809,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 620,
+                                                        lineNumber: 808,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 616,
+                                                lineNumber: 804,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 599,
+                                        lineNumber: 782,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 597,
+                                lineNumber: 780,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 574,
+                        lineNumber: 739,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -2599,7 +2611,7 @@ function AIVisionSection() {
                                                         className: "w-12 h-12 text-gray-500 mx-auto mb-2"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 635,
+                                                        lineNumber: 826,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2607,18 +2619,18 @@ function AIVisionSection() {
                                                         children: "Guest Photo Captured"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 636,
+                                                        lineNumber: 827,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 634,
+                                                lineNumber: 825,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 633,
+                                            lineNumber: 824,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2632,7 +2644,7 @@ function AIVisionSection() {
                                                             className: "w-4 h-4 text-[#D4A84B]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 643,
+                                                            lineNumber: 836,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2640,29 +2652,29 @@ function AIVisionSection() {
                                                             children: "AI Detected: Faucet Leak"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 644,
+                                                            lineNumber: 837,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 642,
+                                                    lineNumber: 835,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 641,
+                                                lineNumber: 834,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 640,
+                                            lineNumber: 833,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 632,
+                                    lineNumber: 823,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2676,7 +2688,7 @@ function AIVisionSection() {
                                                     children: "AI Analysis Results"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 653,
+                                                    lineNumber: 848,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2689,7 +2701,7 @@ function AIVisionSection() {
                                                                     children: "Issue Type:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 656,
+                                                                    lineNumber: 853,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2697,13 +2709,13 @@ function AIVisionSection() {
                                                                     children: "Plumbing - Faucet Leak"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 657,
+                                                                    lineNumber: 854,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 655,
+                                                            lineNumber: 852,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2713,7 +2725,7 @@ function AIVisionSection() {
                                                                     children: "Severity:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 660,
+                                                                    lineNumber: 857,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2721,13 +2733,13 @@ function AIVisionSection() {
                                                                     children: "Medium"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 661,
+                                                                    lineNumber: 858,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 659,
+                                                            lineNumber: 856,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2737,7 +2749,7 @@ function AIVisionSection() {
                                                                     children: "Est. Repair:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 664,
+                                                                    lineNumber: 861,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2745,13 +2757,13 @@ function AIVisionSection() {
                                                                     children: "15-20 minutes"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 665,
+                                                                    lineNumber: 862,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 663,
+                                                            lineNumber: 860,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2761,7 +2773,7 @@ function AIVisionSection() {
                                                                     children: "Parts Needed:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 668,
+                                                                    lineNumber: 865,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2769,25 +2781,25 @@ function AIVisionSection() {
                                                                     children: "Washer, O-ring"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 669,
+                                                                    lineNumber: 866,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 667,
+                                                            lineNumber: 864,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 654,
+                                                    lineNumber: 851,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 652,
+                                            lineNumber: 847,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2800,7 +2812,7 @@ function AIVisionSection() {
                                                             className: "w-4 h-4 text-[#2D8B8B]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 676,
+                                                            lineNumber: 873,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2808,13 +2820,13 @@ function AIVisionSection() {
                                                             children: "Ticket #M-4821 Created"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 677,
+                                                            lineNumber: 874,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 675,
+                                                    lineNumber: 872,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2822,46 +2834,46 @@ function AIVisionSection() {
                                                     children: "Assigned via GHOST LAN"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 679,
+                                                    lineNumber: 878,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 674,
+                                            lineNumber: 871,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 651,
+                                    lineNumber: 846,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 630,
+                            lineNumber: 821,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 629,
+                        lineNumber: 820,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 572,
+                lineNumber: 737,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-            lineNumber: 571,
+            lineNumber: 736,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 570,
+        lineNumber: 735,
         columnNumber: 5
     }, this);
 }
@@ -2869,46 +2881,46 @@ function AIVisionSection() {
 function GuestJourneySection() {
     const journeyStages = [
         {
-            title: 'Pre-Stay',
+            title: "Pre-Stay",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"],
-            color: 'gold',
-            description: 'The guest journey begins long before check-in. ORION captures preferences during booking, anticipates needs based on stay purpose, and prepares your team with actionable insights. Is it their anniversary? Do they need airport pickup? Are they traveling for business? Every detail is captured and distributed to the right departments before the guest even arrives.',
+            color: "gold",
+            description: "The guest journey begins long before check-in. ORION captures preferences during booking, anticipates needs based on stay purpose, and prepares your team with actionable insights. Is it their anniversary? Do they need airport pickup? Are they traveling for business? Every detail is captured and distributed to the right departments before the guest even arrives.",
             features: [
-                'Preference capture',
-                'Occasion detection',
-                'Pre-arrival preparation',
-                'Transportation coordination'
+                "Preference capture",
+                "Occasion detection",
+                "Pre-arrival preparation",
+                "Transportation coordination"
             ],
-            metric: 'Pre-Stay Engagement',
-            metricValue: '+85%'
+            metric: "Pre-Stay Engagement",
+            metricValue: "+85%"
         },
         {
-            title: 'During Stay',
+            title: "During Stay",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"],
-            color: 'teal',
-            description: 'Real-time support that doesn\'t wait for problems. Our Agentic AI monitors for issues, triggers proactive upsell opportunities at the right moment, and ensures instant issue resolution through GHOST LAN routing. From the moment they check in until they depart, every interaction is optimized for both guest satisfaction and revenue generation.',
+            color: "teal",
+            description: "Real-time support that doesn't wait for problems. Our Agentic AI monitors for issues, triggers proactive upsell opportunities at the right moment, and ensures instant issue resolution through GHOST LAN routing. From the moment they check in until they depart, every interaction is optimized for both guest satisfaction and revenue generation.",
             features: [
-                'Real-time support',
-                'Proactive upselling',
-                'Instant issue resolution',
-                'Personalized recommendations'
+                "Real-time support",
+                "Proactive upselling",
+                "Instant issue resolution",
+                "Personalized recommendations"
             ],
-            metric: 'Guest Satisfaction',
-            metricValue: '4.8/5'
+            metric: "Guest Satisfaction",
+            metricValue: "4.8/5"
         },
         {
-            title: 'Post-Stay',
+            title: "Post-Stay",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"],
-            color: 'gold',
-            description: 'The relationship doesn\'t end at checkout. ORION automates feedback collection, analyzes sentiment, and triggers rebooking incentives at optimal moments. Loyalty programs, personalized offers, and anniversary reminders keep your property top-of-mind. Transform one-time guests into lifelong advocates who return again and again.',
+            color: "gold",
+            description: "The relationship doesn't end at checkout. ORION automates feedback collection, analyzes sentiment, and triggers rebooking incentives at optimal moments. Loyalty programs, personalized offers, and anniversary reminders keep your property top-of-mind. Transform one-time guests into lifelong advocates who return again and again.",
             features: [
-                'Automated feedback',
-                'Sentiment analysis',
-                'Rebooking incentives',
-                'Loyalty integration'
+                "Automated feedback",
+                "Sentiment analysis",
+                "Rebooking incentives",
+                "Loyalty integration"
             ],
-            metric: 'Return Rate',
-            metricValue: '+34%'
+            metric: "Return Rate",
+            metricValue: "+34%"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2927,14 +2939,14 @@ function GuestJourneySection() {
                                     className: "w-3 h-3 mr-1"
                                 }, void 0, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 728,
+                                    lineNumber: 950,
                                     columnNumber: 13
                                 }, this),
                                 "Complete Lifecycle"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 727,
+                            lineNumber: 946,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2942,7 +2954,7 @@ function GuestJourneySection() {
                             children: "The Full Guest Journey"
                         }, void 0, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 731,
+                            lineNumber: 953,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2950,20 +2962,20 @@ function GuestJourneySection() {
                             children: "From booking to farewell, and beyond. ORION manages the complete guest lifecycle with proactive intelligence at every stage."
                         }, void 0, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 734,
+                            lineNumber: 956,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 726,
+                    lineNumber: 945,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid grid-cols-1 lg:grid-cols-3 gap-8",
                     children: journeyStages.map((stage, index)=>{
                         const Icon = stage.icon;
-                        const isGold = stage.color === 'gold';
+                        const isGold = stage.color === "gold";
                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                             className: "group hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden",
                             children: [
@@ -2971,17 +2983,17 @@ function GuestJourneySection() {
                                     className: "pb-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `w-14 h-14 rounded-xl flex items-center justify-center mb-4 ${isGold ? 'bg-[#D4A84B]/10' : 'bg-[#2D8B8B]/10'}`,
+                                            className: `w-14 h-14 rounded-xl flex items-center justify-center mb-4 ${isGold ? "bg-[#D4A84B]/10" : "bg-[#2D8B8B]/10"}`,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                                                className: `w-7 h-7 ${isGold ? 'text-[#D4A84B]' : 'text-[#2D8B8B]'}`
+                                                className: `w-7 h-7 ${isGold ? "text-[#D4A84B]" : "text-[#2D8B8B]"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 751,
+                                                lineNumber: 978,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 748,
+                                            lineNumber: 973,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardTitle"], {
@@ -2989,13 +3001,13 @@ function GuestJourneySection() {
                                             children: stage.title
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 753,
+                                            lineNumber: 982,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 747,
+                                    lineNumber: 972,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -3006,74 +3018,74 @@ function GuestJourneySection() {
                                             children: stage.description
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 758,
+                                            lineNumber: 987,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex flex-wrap gap-2",
                                             children: stage.features.map((feature, fIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: `flex items-center gap-1 px-2 py-1 rounded-full text-xs ${isGold ? 'bg-[#D4A84B]/5 text-[#D4A84B]' : 'bg-[#2D8B8B]/5 text-[#2D8B8B]'}`,
+                                                    className: `flex items-center gap-1 px-2 py-1 rounded-full text-xs ${isGold ? "bg-[#D4A84B]/5 text-[#D4A84B]" : "bg-[#2D8B8B]/5 text-[#2D8B8B]"}`,
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
                                                             className: "w-3 h-3"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 770,
+                                                            lineNumber: 1002,
                                                             columnNumber: 25
                                                         }, this),
                                                         feature
                                                     ]
                                                 }, fIndex, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 765,
+                                                    lineNumber: 994,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 763,
+                                            lineNumber: 992,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `p-4 rounded-lg ${isGold ? 'bg-[#D4A84B]/5' : 'bg-[#2D8B8B]/5'}`,
+                                            className: `p-4 rounded-lg ${isGold ? "bg-[#D4A84B]/5" : "bg-[#2D8B8B]/5"}`,
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "text-sm text-gray-500 mb-1",
                                                     children: stage.metric
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 778,
+                                                    lineNumber: 1012,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: `text-2xl font-bold ${isGold ? 'text-[#D4A84B]' : 'text-[#2D8B8B]'}`,
+                                                    className: `text-2xl font-bold ${isGold ? "text-[#D4A84B]" : "text-[#2D8B8B]"}`,
                                                     children: stage.metricValue
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 779,
+                                                    lineNumber: 1015,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 777,
+                                            lineNumber: 1009,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 757,
+                                    lineNumber: 986,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 746,
+                            lineNumber: 968,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 741,
+                    lineNumber: 963,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3086,47 +3098,47 @@ function GuestJourneySection() {
                                 children: "Seamless transitions."
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 792,
+                                lineNumber: 1030,
                                 columnNumber: 13
                             }, this),
-                            ' ',
+                            " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "font-semibold text-[#2D8B8B]",
                                 children: "Continuous intelligence."
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 793,
+                                lineNumber: 1033,
                                 columnNumber: 13
                             }, this),
-                            ' ',
+                            " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "font-semibold text-[#0F172A]",
                                 children: "Complete guest satisfaction."
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 794,
+                                lineNumber: 1036,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 791,
+                        lineNumber: 1029,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 790,
+                    lineNumber: 1028,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-            lineNumber: 724,
+            lineNumber: 943,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 723,
+        lineNumber: 942,
         columnNumber: 5
     }, this);
 }
@@ -3141,12 +3153,12 @@ function EskomSection() {
                     className: "absolute top-1/4 right-1/3 w-80 h-80 bg-[#D4A84B]/5 rounded-full blur-3xl"
                 }, void 0, false, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 808,
+                    lineNumber: 1052,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 807,
+                lineNumber: 1051,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3167,14 +3179,14 @@ function EskomSection() {
                                                     className: "w-3 h-3 mr-1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 817,
+                                                    lineNumber: 1064,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Load Shedding Intelligence"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 816,
+                                            lineNumber: 1060,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3183,7 +3195,7 @@ function EskomSection() {
                                                 "Never Caught in the Dark",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 822,
+                                                    lineNumber: 1069,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3191,19 +3203,19 @@ function EskomSection() {
                                                     children: "Literally or Figuratively"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 823,
+                                                    lineNumber: 1070,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 820,
+                                            lineNumber: 1067,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 815,
+                                    lineNumber: 1059,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3211,33 +3223,35 @@ function EskomSection() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: [
-                                                "Load shedding is a reality of South African life—but it doesn't have to ruin your guests' experience. ORION's ",
+                                                "Load shedding is a reality of South African life—but it doesn't have to ruin your guests' experience. ORION's",
+                                                " ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-[#D4A84B] font-semibold",
                                                     children: "Eskom sePush integration"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 829,
-                                                    columnNumber: 142
+                                                    lineNumber: 1081,
+                                                    columnNumber: 17
                                                 }, this),
-                                                " brings real-time power status directly to your manager dashboard. Know exactly when outages are scheduled and how they'll affect your property."
+                                                " ",
+                                                "brings real-time power status directly to your manager dashboard. Know exactly when outages are scheduled and how they'll affect your property."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 828,
+                                            lineNumber: 1077,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "But here's where Agentic AI shines: it doesn't just show you the schedule—it proactively warns guests to order food before the power goes out, suggests entertainment options during outages, and ensures your backup systems are prepared. Your guests might not even notice there was load shedding."
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 831,
+                                            lineNumber: 1088,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 827,
+                                    lineNumber: 1076,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3250,7 +3264,7 @@ function EskomSection() {
                                                     className: "w-6 h-6 text-[#D4A84B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 839,
+                                                    lineNumber: 1100,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -3258,7 +3272,7 @@ function EskomSection() {
                                                     children: "Live Integration"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 840,
+                                                    lineNumber: 1101,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3266,13 +3280,13 @@ function EskomSection() {
                                                     children: "Real-time Eskom sePush data"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 841,
+                                                    lineNumber: 1102,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 838,
+                                            lineNumber: 1099,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3282,7 +3296,7 @@ function EskomSection() {
                                                     className: "w-6 h-6 text-[#2D8B8B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 844,
+                                                    lineNumber: 1107,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -3290,7 +3304,7 @@ function EskomSection() {
                                                     children: "Guest Alerts"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 845,
+                                                    lineNumber: 1108,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3298,13 +3312,13 @@ function EskomSection() {
                                                     children: "Proactive power notifications"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 846,
+                                                    lineNumber: 1109,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 843,
+                                            lineNumber: 1106,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3314,7 +3328,7 @@ function EskomSection() {
                                                     className: "w-6 h-6 text-[#D4A84B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 849,
+                                                    lineNumber: 1114,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -3322,7 +3336,7 @@ function EskomSection() {
                                                     children: "Smart Suggestions"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 850,
+                                                    lineNumber: 1115,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3330,13 +3344,13 @@ function EskomSection() {
                                                     children: "Dining & entertainment tips"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 851,
+                                                    lineNumber: 1116,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 848,
+                                            lineNumber: 1113,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3346,7 +3360,7 @@ function EskomSection() {
                                                     className: "w-6 h-6 text-[#2D8B8B] mb-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 854,
+                                                    lineNumber: 1121,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -3354,7 +3368,7 @@ function EskomSection() {
                                                     children: "Backup Ready"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 855,
+                                                    lineNumber: 1122,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3362,25 +3376,25 @@ function EskomSection() {
                                                     children: "Generator & UPS monitoring"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 856,
+                                                    lineNumber: 1123,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 853,
+                                            lineNumber: 1120,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 837,
+                                    lineNumber: 1098,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 814,
+                            lineNumber: 1058,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -3400,12 +3414,12 @@ function EskomSection() {
                                                             className: "w-5 h-5 text-[#D4A84B]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 867,
+                                                            lineNumber: 1136,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 866,
+                                                        lineNumber: 1135,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3415,7 +3429,7 @@ function EskomSection() {
                                                                 children: "Eskom Status"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 870,
+                                                                lineNumber: 1139,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -3423,19 +3437,19 @@ function EskomSection() {
                                                                 children: "Live power monitoring"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 871,
+                                                                lineNumber: 1142,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 869,
+                                                        lineNumber: 1138,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 865,
+                                                lineNumber: 1134,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -3443,18 +3457,18 @@ function EskomSection() {
                                                 children: "Stage 4"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 874,
+                                                lineNumber: 1147,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 864,
+                                        lineNumber: 1133,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 863,
+                                    lineNumber: 1132,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -3470,7 +3484,7 @@ function EskomSection() {
                                                             className: "w-5 h-5 text-yellow-500"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 883,
+                                                            lineNumber: 1156,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3480,7 +3494,7 @@ function EskomSection() {
                                                                     children: "Load Shedding Active"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 885,
+                                                                    lineNumber: 1158,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3488,19 +3502,19 @@ function EskomSection() {
                                                                     children: "Stage 4 • Your area affected"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 886,
+                                                                    lineNumber: 1161,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 884,
+                                                            lineNumber: 1157,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 882,
+                                                    lineNumber: 1155,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3513,7 +3527,7 @@ function EskomSection() {
                                                                     children: "Next Outage:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 891,
+                                                                    lineNumber: 1168,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3521,13 +3535,13 @@ function EskomSection() {
                                                                     children: "18:00 - 20:30"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 892,
+                                                                    lineNumber: 1169,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 890,
+                                                            lineNumber: 1167,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3537,7 +3551,7 @@ function EskomSection() {
                                                                     children: "Duration:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 895,
+                                                                    lineNumber: 1172,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3545,25 +3559,25 @@ function EskomSection() {
                                                                     children: "2h 30m"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 896,
+                                                                    lineNumber: 1173,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 894,
+                                                            lineNumber: 1171,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 889,
+                                                    lineNumber: 1166,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 881,
+                                            lineNumber: 1154,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3574,7 +3588,7 @@ function EskomSection() {
                                                     children: "AI Recommendations"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 903,
+                                                    lineNumber: 1180,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3587,19 +3601,20 @@ function EskomSection() {
                                                                 children: "Notify guests:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 906,
+                                                                lineNumber: 1185,
                                                                 columnNumber: 21
                                                             }, this),
-                                                            " Recommend ordering dinner by 17:30. Kitchen will operate on backup power during outage."
+                                                            " ",
+                                                            "Recommend ordering dinner by 17:30. Kitchen will operate on backup power during outage."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 905,
+                                                        lineNumber: 1184,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 904,
+                                                    lineNumber: 1183,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3612,25 +3627,26 @@ function EskomSection() {
                                                                 children: "Entertainment:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 911,
+                                                                lineNumber: 1194,
                                                                 columnNumber: 21
                                                             }, this),
-                                                            " Suggest spa bookings during outage window. Indoor activities available."
+                                                            " ",
+                                                            "Suggest spa bookings during outage window. Indoor activities available."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 910,
+                                                        lineNumber: 1193,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 909,
+                                                    lineNumber: 1192,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 902,
+                                            lineNumber: 1179,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3641,7 +3657,7 @@ function EskomSection() {
                                                     children: "Today's Schedule"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 918,
+                                                    lineNumber: 1205,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3655,7 +3671,7 @@ function EskomSection() {
                                                                     children: "06:00 - 08:30"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 921,
+                                                                    lineNumber: 1210,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -3663,13 +3679,13 @@ function EskomSection() {
                                                                     children: "Passed"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 922,
+                                                                    lineNumber: 1211,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 920,
+                                                            lineNumber: 1209,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3680,7 +3696,7 @@ function EskomSection() {
                                                                     children: "18:00 - 20:30"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 925,
+                                                                    lineNumber: 1216,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -3688,54 +3704,54 @@ function EskomSection() {
                                                                     children: "Upcoming"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 926,
+                                                                    lineNumber: 1217,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 924,
+                                                            lineNumber: 1215,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 919,
+                                                    lineNumber: 1208,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 917,
+                                            lineNumber: 1204,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 879,
+                                    lineNumber: 1152,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 862,
+                            lineNumber: 1131,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 812,
+                    lineNumber: 1056,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 811,
+                lineNumber: 1055,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 805,
+        lineNumber: 1049,
         columnNumber: 5
     }, this);
 }
@@ -3744,106 +3760,106 @@ function ProductsSection() {
     const products = [
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wrench$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wrench$3e$__["Wrench"],
-            title: 'Maintenance Ticketing',
-            description: 'Transform issue resolution with AI Vision photo capability. Guests snap a photo, AI analyzes and categorizes, GHOST LAN routes to the nearest qualified staff. Track downtime minutes, severity escalation, and fix velocity. Calculate exact revenue protected with every resolved ticket. This isn\'t just maintenance—it\'s revenue insurance.',
+            title: "Maintenance Ticketing",
+            description: "Transform issue resolution with AI Vision photo capability. Guests snap a photo, AI analyzes and categorizes, GHOST LAN routes to the nearest qualified staff. Track downtime minutes, severity escalation, and fix velocity. Calculate exact revenue protected with every resolved ticket. This isn't just maintenance—it's revenue insurance.",
             features: [
-                'AI Vision photo analysis',
-                'GHOST LAN routing',
-                'Revenue protection metrics',
-                'Downtime tracking'
+                "AI Vision photo analysis",
+                "GHOST LAN routing",
+                "Revenue protection metrics",
+                "Downtime tracking"
             ],
-            metric: 'Room Downtime Recovery Rate',
+            metric: "Room Downtime Recovery Rate",
             featured: false
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"],
-            title: 'Housekeeping Status',
-            description: 'Room turnover time directly impacts revenue. Track every minute between checkout and room-ready status with GHOST LAN intelligent routing. Calculate sellable hours recovered across your property. Faster turnover means higher occupancy potential and reduced guest wait times.',
+            title: "Housekeeping Status",
+            description: "Room turnover time directly impacts revenue. Track every minute between checkout and room-ready status with GHOST LAN intelligent routing. Calculate sellable hours recovered across your property. Faster turnover means higher occupancy potential and reduced guest wait times.",
             features: [
-                'GHOST LAN routing',
-                'Turnover velocity tracking',
-                'Sellable hours recovery',
-                'Staff performance metrics'
+                "GHOST LAN routing",
+                "Turnover velocity tracking",
+                "Sellable hours recovery",
+                "Staff performance metrics"
             ],
-            metric: 'Turnover Velocity Index',
+            metric: "Turnover Velocity Index",
             featured: false
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"],
-            title: 'Guest Onboarding',
-            description: 'Pre-stay journey optimization that captures purpose of stay, interest signals, and special occasions. Trigger personalized upsell recommendations at maximum receptivity. This isn\'t check-in paperwork—it\'s revenue expansion disguised as hospitality.',
+            title: "Guest Onboarding",
+            description: "Pre-stay journey optimization that captures purpose of stay, interest signals, and special occasions. Trigger personalized upsell recommendations at maximum receptivity. This isn't check-in paperwork—it's revenue expansion disguised as hospitality.",
             features: [
-                'Pre-stay capture',
-                'Smart upsell triggers',
-                'Occasion detection',
-                'Conversion tracking'
+                "Pre-stay capture",
+                "Smart upsell triggers",
+                "Occasion detection",
+                "Conversion tracking"
             ],
-            metric: 'Onboarding Conversion Rate',
+            metric: "Onboarding Conversion Rate",
             featured: false
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gauge$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Gauge$3e$__["Gauge"],
-            title: 'RACK RATE Control',
-            description: 'The Revenue Alignment Control Key is your strategic command center. Choose your optimization strategy—from pure guest satisfaction to maximum revenue extraction. Revolutionary slider control with AI recommendations based on live performance data.',
+            title: "RACK RATE Control",
+            description: "The Revenue Alignment Control Key is your strategic command center. Choose your optimization strategy—from pure guest satisfaction to maximum revenue extraction. Revolutionary slider control with AI recommendations based on live performance data.",
             features: [
-                'Strategy slider',
-                'AI recommendations',
-                'Projected outcomes',
-                'Manual override'
+                "Strategy slider",
+                "AI recommendations",
+                "Projected outcomes",
+                "Manual override"
             ],
-            metric: 'Revenue Alignment Score',
+            metric: "Revenue Alignment Score",
             featured: true
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Brain$3e$__["Brain"],
-            title: 'AI Assist Layer',
-            description: 'Agentic, proactive AI that anticipates needs before they become problems. Not just responding—predicting and preventing. Analyzes patterns across maintenance response times, housekeeping velocity, and guest engagement to surface opportunities and risks.',
+            title: "AI Assist Layer",
+            description: "Agentic, proactive AI that anticipates needs before they become problems. Not just responding—predicting and preventing. Analyzes patterns across maintenance response times, housekeeping velocity, and guest engagement to surface opportunities and risks.",
             features: [
-                'Predictive alerts',
-                'Proactive actions',
-                'Performance insights',
-                'Load shedding awareness'
+                "Predictive alerts",
+                "Proactive actions",
+                "Performance insights",
+                "Load shedding awareness"
             ],
-            metric: 'Intelligence Score',
+            metric: "Intelligence Score",
             featured: false
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$languages$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Languages$3e$__["Languages"],
-            title: 'African Language Support',
-            description: 'Speaking your guests\' language—literally. Support for 8+ indigenous African languages including Zulu, Xhosa, Afrikaans, Sotho, Tswana, and more. Enable authentic communication that delivers the warmth South African hospitality is famous for.',
+            title: "African Language Support",
+            description: "Speaking your guests' language—literally. Support for 8+ indigenous African languages including Zulu, Xhosa, Afrikaans, Sotho, Tswana, and more. Enable authentic communication that delivers the warmth South African hospitality is famous for.",
             features: [
-                '8+ African languages',
-                'Native greetings',
-                'Cultural context',
-                'Staff translation tools'
+                "8+ African languages",
+                "Native greetings",
+                "Cultural context",
+                "Staff translation tools"
             ],
-            metric: 'Language Coverage',
+            metric: "Language Coverage",
             featured: false
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"],
-            title: 'Eskom sePush Integration',
-            description: 'Live load shedding intelligence on manager dashboard. Proactive AI warns guests to order food before outages, suggests entertainment options during load shedding. Never caught in the dark—literally or figuratively.',
+            title: "Eskom sePush Integration",
+            description: "Live load shedding intelligence on manager dashboard. Proactive AI warns guests to order food before outages, suggests entertainment options during load shedding. Never caught in the dark—literally or figuratively.",
             features: [
-                'Live Eskom data',
-                'Guest alerts',
-                'Smart suggestions',
-                'Backup monitoring'
+                "Live Eskom data",
+                "Guest alerts",
+                "Smart suggestions",
+                "Backup monitoring"
             ],
-            metric: 'Outage Preparedness',
+            metric: "Outage Preparedness",
             featured: false
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wifi$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wifi$3e$__["Wifi"],
-            title: 'GHOST LAN Routing',
-            description: 'Revolutionary routing system using phone MAC and IP addresses to route tickets directly to the nearest staff member. Bypass the middleman—direct staff assignment. The right person, in the right place, at the right time.',
+            title: "GHOST LAN Routing",
+            description: "Revolutionary routing system using phone MAC and IP addresses to route tickets directly to the nearest staff member. Bypass the middleman—direct staff assignment. The right person, in the right place, at the right time.",
             features: [
-                'Direct routing',
-                'Location awareness',
-                'Sub-second assignment',
-                'No middleman'
+                "Direct routing",
+                "Location awareness",
+                "Sub-second assignment",
+                "No middleman"
             ],
-            metric: 'Response Velocity',
+            metric: "Response Velocity",
             featured: false
         }
     ];
@@ -3862,7 +3878,7 @@ function ProductsSection() {
                             children: "Product Suite"
                         }, void 0, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1012,
+                            lineNumber: 1353,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3870,7 +3886,7 @@ function ProductsSection() {
                             children: "ORION HOTEL SUITE"
                         }, void 0, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1015,
+                            lineNumber: 1359,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3878,13 +3894,13 @@ function ProductsSection() {
                             children: "A complete revenue intelligence platform with 8 powerful modules designed specifically for African hospitality. Agentic AI. Local languages. Real impact."
                         }, void 0, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1018,
+                            lineNumber: 1362,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 1011,
+                    lineNumber: 1352,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3907,17 +3923,17 @@ function ProductsSection() {
                                                         className: "w-8 h-8 text-[#D4A84B]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1036,
+                                                        lineNumber: 1384,
                                                         columnNumber: 27
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1035,
+                                                    lineNumber: 1383,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1034,
+                                                lineNumber: 1382,
                                                 columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3930,7 +3946,7 @@ function ProductsSection() {
                                                                 children: product.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1041,
+                                                                lineNumber: 1389,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -3939,13 +3955,13 @@ function ProductsSection() {
                                                                 children: product.metric
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1042,
+                                                                lineNumber: 1392,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1040,
+                                                        lineNumber: 1388,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3953,7 +3969,7 @@ function ProductsSection() {
                                                         children: product.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1046,
+                                                        lineNumber: 1399,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3965,41 +3981,41 @@ function ProductsSection() {
                                                                         className: "w-3 h-3 text-[#D4A84B]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1050,
+                                                                        lineNumber: 1408,
                                                                         columnNumber: 31
                                                                     }, this),
                                                                     feature
                                                                 ]
                                                             }, fIndex, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1049,
+                                                                lineNumber: 1404,
                                                                 columnNumber: 29
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1047,
+                                                        lineNumber: 1402,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1039,
+                                                lineNumber: 1387,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1033,
+                                        lineNumber: 1381,
                                         columnNumber: 21
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1032,
+                                    lineNumber: 1380,
                                     columnNumber: 19
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1031,
+                                lineNumber: 1376,
                                 columnNumber: 17
                             }, this);
                         }
@@ -4019,12 +4035,12 @@ function ProductsSection() {
                                                         className: "w-7 h-7 text-[#2D8B8B]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1068,
+                                                        lineNumber: 1429,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1067,
+                                                    lineNumber: 1428,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4034,7 +4050,7 @@ function ProductsSection() {
                                                             children: product.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1071,
+                                                            lineNumber: 1432,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -4042,19 +4058,19 @@ function ProductsSection() {
                                                             children: product.metric
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1072,
+                                                            lineNumber: 1435,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1070,
+                                                    lineNumber: 1431,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1066,
+                                            lineNumber: 1427,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4062,7 +4078,7 @@ function ProductsSection() {
                                             children: product.description
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1075,
+                                            lineNumber: 1438,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4074,52 +4090,52 @@ function ProductsSection() {
                                                             className: "w-3 h-3 text-[#2D8B8B]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1079,
+                                                            lineNumber: 1447,
                                                             columnNumber: 27
                                                         }, this),
                                                         feature
                                                     ]
                                                 }, fIndex, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1078,
+                                                    lineNumber: 1443,
                                                     columnNumber: 25
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1076,
+                                            lineNumber: 1441,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1065,
+                                    lineNumber: 1426,
                                     columnNumber: 19
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1064,
+                                lineNumber: 1425,
                                 columnNumber: 17
                             }, this)
                         }, index, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1063,
+                            lineNumber: 1421,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 1025,
+                    lineNumber: 1370,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-            lineNumber: 1009,
+            lineNumber: 1350,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 1008,
+        lineNumber: 1349,
         columnNumber: 5
     }, this);
 }
@@ -4128,19 +4144,19 @@ function DashboardPreviewSection() {
     const [sliderValue, setSliderValue] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([
         35
     ]);
-    const [mode, setMode] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('ai');
+    const [mode, setMode] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("ai");
     const getStrategyLabel = ()=>{
         if (sliderValue[0] <= 30) return {
-            label: 'Guest-First Mode',
-            desc: 'Maximum satisfaction with sustainable growth'
+            label: "Guest-First Mode",
+            desc: "Maximum satisfaction with sustainable growth"
         };
         if (sliderValue[0] <= 60) return {
-            label: 'Balanced Growth',
-            desc: 'Experience-optimized revenue strategy'
+            label: "Balanced Growth",
+            desc: "Experience-optimized revenue strategy"
         };
         return {
-            label: 'Revenue Maximizer',
-            desc: 'Aggressive upselling with premium focus'
+            label: "Revenue Maximizer",
+            desc: "Aggressive upselling with premium focus"
         };
     };
     const strategy = getStrategyLabel();
@@ -4158,12 +4174,12 @@ function DashboardPreviewSection() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 1112,
+                    lineNumber: 1494,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1111,
+                lineNumber: 1493,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4178,7 +4194,7 @@ function DashboardPreviewSection() {
                                 children: "Manager Dashboard"
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1121,
+                                lineNumber: 1506,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4187,7 +4203,7 @@ function DashboardPreviewSection() {
                                     "Command Center for",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1126,
+                                        lineNumber: 1514,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4195,13 +4211,13 @@ function DashboardPreviewSection() {
                                         children: "Modern Hospitality"
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1127,
+                                        lineNumber: 1515,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1124,
+                                lineNumber: 1512,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4209,13 +4225,13 @@ function DashboardPreviewSection() {
                                 children: "A dark-themed, intuitive dashboard that puts everything at your fingertips. Live analytics, proactive AI notifications, and Eskom status—all in one place."
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1129,
+                                lineNumber: 1517,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 1120,
+                        lineNumber: 1505,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4233,7 +4249,7 @@ function DashboardPreviewSection() {
                                                 className: "w-8 h-8 rounded"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1140,
+                                                lineNumber: 1529,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4243,7 +4259,7 @@ function DashboardPreviewSection() {
                                                         children: "ORION Manager Dashboard"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1142,
+                                                        lineNumber: 1531,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4251,19 +4267,19 @@ function DashboardPreviewSection() {
                                                         children: "The Grand Hotel • Durban"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1143,
+                                                        lineNumber: 1534,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1141,
+                                                lineNumber: 1530,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1139,
+                                        lineNumber: 1528,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4276,14 +4292,14 @@ function DashboardPreviewSection() {
                                                         className: "w-3 h-3 mr-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1148,
+                                                        lineNumber: 1541,
                                                         columnNumber: 17
                                                     }, this),
                                                     "Stage 4"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1147,
+                                                lineNumber: 1540,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4293,32 +4309,32 @@ function DashboardPreviewSection() {
                                                         className: "w-4 h-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1152,
+                                                        lineNumber: 1545,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "14:32"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1153,
+                                                        lineNumber: 1546,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1151,
+                                                lineNumber: 1544,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1146,
+                                        lineNumber: 1539,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1138,
+                                lineNumber: 1527,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4341,20 +4357,20 @@ function DashboardPreviewSection() {
                                                                         children: "Today's Revenue"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1166,
+                                                                        lineNumber: 1559,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
                                                                         className: "w-4 h-4 text-green-500"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1167,
+                                                                        lineNumber: 1562,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1165,
+                                                                lineNumber: 1558,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4362,7 +4378,7 @@ function DashboardPreviewSection() {
                                                                 children: "R 47,850"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1169,
+                                                                lineNumber: 1564,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4370,13 +4386,13 @@ function DashboardPreviewSection() {
                                                                 children: "+12% vs yesterday"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1170,
+                                                                lineNumber: 1565,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1164,
+                                                        lineNumber: 1557,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4390,20 +4406,20 @@ function DashboardPreviewSection() {
                                                                         children: "Occupancy"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1174,
+                                                                        lineNumber: 1571,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__["Building2"], {
                                                                         className: "w-4 h-4 text-[#2D8B8B]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1175,
+                                                                        lineNumber: 1572,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1173,
+                                                                lineNumber: 1570,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4411,7 +4427,7 @@ function DashboardPreviewSection() {
                                                                 children: "87%"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1177,
+                                                                lineNumber: 1574,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4419,13 +4435,13 @@ function DashboardPreviewSection() {
                                                                 children: "+5% this week"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1178,
+                                                                lineNumber: 1575,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1172,
+                                                        lineNumber: 1569,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4439,20 +4455,20 @@ function DashboardPreviewSection() {
                                                                         children: "Open Tickets"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1182,
+                                                                        lineNumber: 1581,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wrench$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wrench$3e$__["Wrench"], {
                                                                         className: "w-4 h-4 text-[#D4A84B]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1183,
+                                                                        lineNumber: 1582,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1181,
+                                                                lineNumber: 1580,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4460,7 +4476,7 @@ function DashboardPreviewSection() {
                                                                 children: "12"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1185,
+                                                                lineNumber: 1584,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4468,13 +4484,13 @@ function DashboardPreviewSection() {
                                                                 children: "3 urgent"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1186,
+                                                                lineNumber: 1585,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1180,
+                                                        lineNumber: 1579,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4488,20 +4504,20 @@ function DashboardPreviewSection() {
                                                                         children: "Guest Score"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1190,
+                                                                        lineNumber: 1589,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
                                                                         className: "w-4 h-4 text-[#D4A84B]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1191,
+                                                                        lineNumber: 1590,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1189,
+                                                                lineNumber: 1588,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4509,7 +4525,7 @@ function DashboardPreviewSection() {
                                                                 children: "4.8"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1193,
+                                                                lineNumber: 1592,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4517,19 +4533,19 @@ function DashboardPreviewSection() {
                                                                 children: "Excellent"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1194,
+                                                                lineNumber: 1593,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1188,
+                                                        lineNumber: 1587,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1163,
+                                                lineNumber: 1556,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -4547,7 +4563,7 @@ function DashboardPreviewSection() {
                                                                             className: "w-5 h-5 text-[#D4A84B]"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                            lineNumber: 1203,
+                                                                            lineNumber: 1602,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardTitle"], {
@@ -4555,53 +4571,53 @@ function DashboardPreviewSection() {
                                                                             children: "RACK RATE Control"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                            lineNumber: 1204,
+                                                                            lineNumber: 1603,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1202,
+                                                                    lineNumber: 1601,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "flex items-center gap-2",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
-                                                                            variant: mode === 'ai' ? 'default' : 'outline',
-                                                                            className: `cursor-pointer text-xs ${mode === 'ai' ? 'bg-[#2D8B8B] hover:bg-[#2D8B8B]/80' : 'border-gray-600 text-gray-400'}`,
-                                                                            onClick: ()=>setMode('ai'),
+                                                                            variant: mode === "ai" ? "default" : "outline",
+                                                                            className: `cursor-pointer text-xs ${mode === "ai" ? "bg-[#2D8B8B] hover:bg-[#2D8B8B]/80" : "border-gray-600 text-gray-400"}`,
+                                                                            onClick: ()=>setMode("ai"),
                                                                             children: "AI"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                            lineNumber: 1207,
+                                                                            lineNumber: 1608,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
-                                                                            variant: mode === 'manual' ? 'default' : 'outline',
-                                                                            className: `cursor-pointer text-xs ${mode === 'manual' ? 'bg-[#D4A84B] hover:bg-[#D4A84B]/80 text-[#0F172A]' : 'border-gray-600 text-gray-400'}`,
-                                                                            onClick: ()=>setMode('manual'),
+                                                                            variant: mode === "manual" ? "default" : "outline",
+                                                                            className: `cursor-pointer text-xs ${mode === "manual" ? "bg-[#D4A84B] hover:bg-[#D4A84B]/80 text-[#0F172A]" : "border-gray-600 text-gray-400"}`,
+                                                                            onClick: ()=>setMode("manual"),
                                                                             children: "Manual"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                            lineNumber: 1213,
+                                                                            lineNumber: 1615,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1206,
+                                                                    lineNumber: 1607,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1201,
+                                                            lineNumber: 1600,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1200,
+                                                        lineNumber: 1599,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -4615,7 +4631,7 @@ function DashboardPreviewSection() {
                                                                         children: "Current Strategy"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1224,
+                                                                        lineNumber: 1627,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4623,13 +4639,13 @@ function DashboardPreviewSection() {
                                                                         children: strategy.label
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1225,
+                                                                        lineNumber: 1630,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1223,
+                                                                lineNumber: 1626,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4642,20 +4658,20 @@ function DashboardPreviewSection() {
                                                                                 children: "Revenue"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1229,
+                                                                                lineNumber: 1636,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 children: "Satisfaction"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1230,
+                                                                                lineNumber: 1637,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1228,
+                                                                        lineNumber: 1635,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4664,11 +4680,11 @@ function DashboardPreviewSection() {
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                 className: "absolute inset-0 h-2 rounded-full top-1/2 -translate-y-1/2",
                                                                                 style: {
-                                                                                    background: 'linear-gradient(90deg, #D4A84B 0%, #2D8B8B 100%)'
+                                                                                    background: "linear-gradient(90deg, #D4A84B 0%, #2D8B8B 100%)"
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1233,
+                                                                                lineNumber: 1640,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$slider$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Slider"], {
@@ -4677,34 +4693,34 @@ function DashboardPreviewSection() {
                                                                                 max: 100,
                                                                                 step: 1,
                                                                                 className: "relative z-10",
-                                                                                disabled: mode === 'ai'
+                                                                                disabled: mode === "ai"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1235,
+                                                                                lineNumber: 1647,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1232,
+                                                                        lineNumber: 1639,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1227,
+                                                                lineNumber: 1634,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1222,
+                                                        lineNumber: 1625,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1199,
+                                                lineNumber: 1598,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4720,7 +4736,7 @@ function DashboardPreviewSection() {
                                                                         className: "w-4 h-4 text-[#D4A84B]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1252,
+                                                                        lineNumber: 1664,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4728,13 +4744,13 @@ function DashboardPreviewSection() {
                                                                         children: "Maintenance"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1253,
+                                                                        lineNumber: 1665,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1251,
+                                                                lineNumber: 1663,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4748,7 +4764,7 @@ function DashboardPreviewSection() {
                                                                                 children: "Room 312 - AC Issue"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1257,
+                                                                                lineNumber: 1671,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -4756,13 +4772,13 @@ function DashboardPreviewSection() {
                                                                                 children: "Urgent"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1258,
+                                                                                lineNumber: 1672,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1256,
+                                                                        lineNumber: 1670,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4773,7 +4789,7 @@ function DashboardPreviewSection() {
                                                                                 children: "Room 405 - Leaky Faucet"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1261,
+                                                                                lineNumber: 1677,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -4781,25 +4797,25 @@ function DashboardPreviewSection() {
                                                                                 children: "Medium"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1262,
+                                                                                lineNumber: 1680,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1260,
+                                                                        lineNumber: 1676,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1255,
+                                                                lineNumber: 1669,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1250,
+                                                        lineNumber: 1662,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4812,7 +4828,7 @@ function DashboardPreviewSection() {
                                                                         className: "w-4 h-4 text-[#2D8B8B]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1268,
+                                                                        lineNumber: 1688,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4820,13 +4836,13 @@ function DashboardPreviewSection() {
                                                                         children: "Housekeeping"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1269,
+                                                                        lineNumber: 1689,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1267,
+                                                                lineNumber: 1687,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4840,7 +4856,7 @@ function DashboardPreviewSection() {
                                                                                 children: "Rooms Ready: 34/42"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1273,
+                                                                                lineNumber: 1695,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4848,13 +4864,13 @@ function DashboardPreviewSection() {
                                                                                 children: "81%"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1274,
+                                                                                lineNumber: 1696,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1272,
+                                                                        lineNumber: 1694,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4865,7 +4881,7 @@ function DashboardPreviewSection() {
                                                                                 children: "Avg. Turnover: 28 min"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1277,
+                                                                                lineNumber: 1699,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4873,37 +4889,37 @@ function DashboardPreviewSection() {
                                                                                 children: "-5 min"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1278,
+                                                                                lineNumber: 1702,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1276,
+                                                                        lineNumber: 1698,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1271,
+                                                                lineNumber: 1693,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1266,
+                                                        lineNumber: 1686,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1249,
+                                                lineNumber: 1661,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1161,
+                                        lineNumber: 1554,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4921,7 +4937,7 @@ function DashboardPreviewSection() {
                                                                     className: "w-5 h-5 text-[#D4A84B]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1291,
+                                                                    lineNumber: 1715,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardTitle"], {
@@ -4929,18 +4945,18 @@ function DashboardPreviewSection() {
                                                                     children: "AI Notifications"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1292,
+                                                                    lineNumber: 1716,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1290,
+                                                            lineNumber: 1714,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1289,
+                                                        lineNumber: 1713,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -4956,7 +4972,7 @@ function DashboardPreviewSection() {
                                                                                 className: "w-3 h-3 text-[#D4A84B]"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1298,
+                                                                                lineNumber: 1724,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4964,13 +4980,13 @@ function DashboardPreviewSection() {
                                                                                 children: "Proactive Alert"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1299,
+                                                                                lineNumber: 1725,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1297,
+                                                                        lineNumber: 1723,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4978,13 +4994,13 @@ function DashboardPreviewSection() {
                                                                         children: "Load shedding in 2h 30m. Kitchen notified to prioritize Room 215 dinner order."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1301,
+                                                                        lineNumber: 1729,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1296,
+                                                                lineNumber: 1722,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4997,7 +5013,7 @@ function DashboardPreviewSection() {
                                                                                 className: "w-3 h-3 text-[#2D8B8B]"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1305,
+                                                                                lineNumber: 1736,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5005,13 +5021,13 @@ function DashboardPreviewSection() {
                                                                                 children: "Opportunity"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1306,
+                                                                                lineNumber: 1737,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1304,
+                                                                        lineNumber: 1735,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5019,25 +5035,25 @@ function DashboardPreviewSection() {
                                                                         children: "Suite 402 anniversary tomorrow. Champagne suggestion sent to F&B."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1308,
+                                                                        lineNumber: 1741,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1303,
+                                                                lineNumber: 1734,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1295,
+                                                        lineNumber: 1721,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1288,
+                                                lineNumber: 1712,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5053,7 +5069,7 @@ function DashboardPreviewSection() {
                                                                         className: "w-5 h-5 text-[#2D8B8B]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1317,
+                                                                        lineNumber: 1753,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5061,13 +5077,13 @@ function DashboardPreviewSection() {
                                                                         children: "Weather"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1318,
+                                                                        lineNumber: 1754,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1316,
+                                                                lineNumber: 1752,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5075,13 +5091,13 @@ function DashboardPreviewSection() {
                                                                 children: "Durban"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1320,
+                                                                lineNumber: 1758,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1315,
+                                                        lineNumber: 1751,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5092,7 +5108,7 @@ function DashboardPreviewSection() {
                                                                 children: "24°C"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1323,
+                                                                lineNumber: 1761,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5100,7 +5116,7 @@ function DashboardPreviewSection() {
                                                                 children: "Partly Cloudy"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1324,
+                                                                lineNumber: 1762,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5113,20 +5129,20 @@ function DashboardPreviewSection() {
                                                                                 children: "High"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1327,
+                                                                                lineNumber: 1765,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                 children: "27°"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1328,
+                                                                                lineNumber: 1766,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1326,
+                                                                        lineNumber: 1764,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5136,38 +5152,38 @@ function DashboardPreviewSection() {
                                                                                 children: "Low"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1331,
+                                                                                lineNumber: 1769,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                 children: "18°"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                                lineNumber: 1332,
+                                                                                lineNumber: 1770,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1330,
+                                                                        lineNumber: 1768,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1325,
+                                                                lineNumber: 1763,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1322,
+                                                        lineNumber: 1760,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1314,
+                                                lineNumber: 1750,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5183,7 +5199,7 @@ function DashboardPreviewSection() {
                                                                         className: "w-4 h-4 text-yellow-500"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1342,
+                                                                        lineNumber: 1780,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5191,13 +5207,13 @@ function DashboardPreviewSection() {
                                                                         children: "Eskom Status"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1343,
+                                                                        lineNumber: 1781,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1341,
+                                                                lineNumber: 1779,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -5205,13 +5221,13 @@ function DashboardPreviewSection() {
                                                                 children: "Stage 4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1345,
+                                                                lineNumber: 1785,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1340,
+                                                        lineNumber: 1778,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5224,7 +5240,7 @@ function DashboardPreviewSection() {
                                                                         children: "Next Outage:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1349,
+                                                                        lineNumber: 1791,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5232,13 +5248,13 @@ function DashboardPreviewSection() {
                                                                         children: "18:00 - 20:30"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1350,
+                                                                        lineNumber: 1792,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1348,
+                                                                lineNumber: 1790,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5248,7 +5264,7 @@ function DashboardPreviewSection() {
                                                                         children: "Duration:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1353,
+                                                                        lineNumber: 1795,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5256,55 +5272,55 @@ function DashboardPreviewSection() {
                                                                         children: "2h 30m"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                        lineNumber: 1354,
+                                                                        lineNumber: 1796,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                lineNumber: 1352,
+                                                                lineNumber: 1794,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1347,
+                                                        lineNumber: 1789,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1339,
+                                                lineNumber: 1777,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1286,
+                                        lineNumber: 1710,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1159,
+                                lineNumber: 1552,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 1136,
+                        lineNumber: 1525,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1118,
+                lineNumber: 1503,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 1109,
+        lineNumber: 1488,
         columnNumber: 5
     }, this);
 }
@@ -5329,7 +5345,7 @@ function AboutSection() {
                                         children: "Our Story"
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1375,
+                                        lineNumber: 1817,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5338,27 +5354,27 @@ function AboutSection() {
                                             "Built in Africa.",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1379,
-                                                columnNumber: 33
+                                                lineNumber: 1825,
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "gradient-text",
                                                 children: "Engineered for Impact."
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1380,
+                                                lineNumber: 1826,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1378,
+                                        lineNumber: 1823,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1374,
+                                lineNumber: 1816,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5368,20 +5384,20 @@ function AboutSection() {
                                         children: "ORION DEV CORE was founded by Graham Schubach with a vision that extends far beyond software. Based in Durban, South Africa, we represent a new generation of African technology companies building world-class solutions for global markets. Our founder's philosophy is simple yet profound: technology should help people enjoy life and family more, not add complexity to it."
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1385,
+                                        lineNumber: 1831,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "The hospitality industry has long suffered from technology that promises transformation but delivers complexity. We took a different approach. ORION HOTEL SUITE was designed from the ground up to deliver measurable, provable revenue impact—5-17% increases that you can demonstrate to stakeholders with mathematical certainty."
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1391,
+                                        lineNumber: 1840,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1384,
+                                lineNumber: 1830,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5394,7 +5410,7 @@ function AboutSection() {
                                                 className: "w-6 h-6 text-[#D4A84B] mb-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1402,
+                                                lineNumber: 1853,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -5402,7 +5418,7 @@ function AboutSection() {
                                                 children: "African Innovation"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1403,
+                                                lineNumber: 1854,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5410,13 +5426,13 @@ function AboutSection() {
                                                 children: "Proudly built in South Africa"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1404,
+                                                lineNumber: 1857,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1401,
+                                        lineNumber: 1852,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5426,7 +5442,7 @@ function AboutSection() {
                                                 className: "w-6 h-6 text-[#2D8B8B] mb-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1407,
+                                                lineNumber: 1862,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -5434,7 +5450,7 @@ function AboutSection() {
                                                 children: "Math-Based Results"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1408,
+                                                lineNumber: 1863,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5442,13 +5458,13 @@ function AboutSection() {
                                                 children: "Provable impact"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1409,
+                                                lineNumber: 1866,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1406,
+                                        lineNumber: 1861,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5458,7 +5474,7 @@ function AboutSection() {
                                                 className: "w-6 h-6 text-[#D4A84B] mb-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1412,
+                                                lineNumber: 1869,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -5466,7 +5482,7 @@ function AboutSection() {
                                                 children: "Human-Centered"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1413,
+                                                lineNumber: 1870,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5474,25 +5490,25 @@ function AboutSection() {
                                                 children: "AI that uplifts humanity"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1414,
+                                                lineNumber: 1871,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1411,
+                                        lineNumber: 1868,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1400,
+                                lineNumber: 1851,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 1373,
+                        lineNumber: 1815,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5502,7 +5518,7 @@ function AboutSection() {
                                 className: "absolute inset-0 bg-gradient-to-br from-[#D4A84B]/20 to-[#2D8B8B]/20 rounded-3xl transform rotate-3"
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1421,
+                                lineNumber: 1880,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
@@ -5520,12 +5536,12 @@ function AboutSection() {
                                                         children: "GS"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1427,
+                                                        lineNumber: 1886,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1426,
+                                                    lineNumber: 1885,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5533,21 +5549,21 @@ function AboutSection() {
                                                     children: "Graham Schubach"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1429,
+                                                    lineNumber: 1888,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-[#D4A84B] font-medium mt-1",
-                                                    children: "Founder & Visionary"
+                                                    children: "- Founder & Visionary"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1430,
+                                                    lineNumber: 1891,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1425,
+                                            lineNumber: 1884,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5560,7 +5576,7 @@ function AboutSection() {
                                                             className: "w-5 h-5 text-[#2D8B8B] flex-shrink-0 mt-0.5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1436,
+                                                            lineNumber: 1899,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5570,7 +5586,7 @@ function AboutSection() {
                                                                     children: "Durban, South Africa"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1438,
+                                                                    lineNumber: 1901,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5578,24 +5594,24 @@ function AboutSection() {
                                                                     children: "Building world-class technology from Africa"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1439,
+                                                                    lineNumber: 1904,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1437,
+                                                            lineNumber: 1900,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1435,
+                                                    lineNumber: 1898,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$separator$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Separator"], {}, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1443,
+                                                    lineNumber: 1910,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5606,7 +5622,7 @@ function AboutSection() {
                                                             children: "Founder's Vision"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1446,
+                                                            lineNumber: 1913,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
@@ -5614,13 +5630,13 @@ function AboutSection() {
                                                             children: "\"We're not just building software. We're creating infrastructure that helps people enjoy life and family more. Every feature we ship should reduce complexity and increase human flourishing.\""
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1447,
+                                                            lineNumber: 1916,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1445,
+                                                    lineNumber: 1912,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5634,14 +5650,14 @@ function AboutSection() {
                                                                     className: "w-3 h-3 mr-1"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1456,
+                                                                    lineNumber: 1929,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "Vision-First Thinker"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1455,
+                                                            lineNumber: 1925,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -5652,80 +5668,115 @@ function AboutSection() {
                                                                     className: "w-3 h-3 mr-1"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1460,
+                                                                    lineNumber: 1936,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "African Innovation"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1459,
+                                                            lineNumber: 1932,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1454,
+                                                    lineNumber: 1924,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1434,
+                                            lineNumber: 1897,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1423,
+                                    lineNumber: 1882,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1422,
+                                lineNumber: 1881,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                        lineNumber: 1420,
+                        lineNumber: 1879,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1371,
+                lineNumber: 1813,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-            lineNumber: 1370,
+            lineNumber: 1812,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 1369,
+        lineNumber: 1811,
         columnNumber: 5
     }, this);
 }
 // Contact Section
 function ContactSection() {
     const [formData, setFormData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
-        name: '',
-        email: '',
-        company: '',
-        property: '',
-        message: ''
+        name: "",
+        email: "",
+        company: "",
+        property: "",
+        message: ""
     });
     const [isSubmitting, setIsSubmitting] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [isSubmitted, setIsSubmitted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const handleSubmit = async (e)=>{
         e.preventDefault();
         setIsSubmitting(true);
-        // Simulate form submission
-        await new Promise((resolve)=>setTimeout(resolve, 1500));
-        setIsSubmitting(false);
-        setIsSubmitted(true);
+        try {
+            const response = await fetch("/api/demo-request", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    fullName: formData.name,
+                    email: formData.email,
+                    company: formData.company,
+                    propertyName: formData.property,
+                    message: formData.message
+                })
+            });
+            const data = await response.json();
+            if (!response.ok) {
+                console.error("Form error:", data.message);
+                alert(`Error: ${data.message || "Failed to submit"}`);
+                setIsSubmitting(false);
+                return;
+            }
+            setIsSubmitting(false);
+            setIsSubmitted(true);
+            // Reset form after 3 seconds
+            setTimeout(()=>{
+                setIsSubmitted(false);
+                setFormData({
+                    name: "",
+                    email: "",
+                    company: "",
+                    property: "",
+                    message: ""
+                });
+            }, 3000);
+        } catch (error) {
+            console.error("Submission error:", error);
+            alert("An error occurred. Please try again.");
+            setIsSubmitting(false);
+        }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "contact",
@@ -5736,16 +5787,16 @@ function ContactSection() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "absolute top-0 right-0 w-1/2 h-full",
                     style: {
-                        background: 'radial-gradient(circle at 70% 50%, rgba(212, 168, 75, 0.15) 0%, transparent 50%)'
+                        background: "radial-gradient(circle at 70% 50%, rgba(212, 168, 75, 0.15) 0%, transparent 50%)"
                     }
                 }, void 0, false, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 1501,
+                    lineNumber: 2015,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1500,
+                lineNumber: 2014,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5764,7 +5815,7 @@ function ContactSection() {
                                             children: "Get Started"
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1511,
+                                            lineNumber: 2029,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5773,7 +5824,7 @@ function ContactSection() {
                                                 "Ready to Transform",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1516,
+                                                    lineNumber: 2037,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5781,19 +5832,19 @@ function ContactSection() {
                                                     children: "Your Revenue?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1517,
+                                                    lineNumber: 2038,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1514,
+                                            lineNumber: 2035,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1510,
+                                    lineNumber: 2028,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5801,7 +5852,7 @@ function ContactSection() {
                                     children: "Join forward-thinking hoteliers experiencing 5-17% measurable revenue increases with ORION HOTEL SUITE. Agentic AI, local languages, and real impact—built for African hospitality."
                                 }, void 0, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1521,
+                                    lineNumber: 2042,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5816,12 +5867,12 @@ function ContactSection() {
                                                         className: "w-6 h-6 text-[#D4A84B]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1530,
+                                                        lineNumber: 2052,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1529,
+                                                    lineNumber: 2051,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5831,7 +5882,7 @@ function ContactSection() {
                                                             children: "Email Us"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1533,
+                                                            lineNumber: 2055,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5839,19 +5890,19 @@ function ContactSection() {
                                                             children: "hello@oriondevcore.com"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1534,
+                                                            lineNumber: 2056,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1532,
+                                                    lineNumber: 2054,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1528,
+                                            lineNumber: 2050,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5863,12 +5914,12 @@ function ContactSection() {
                                                         className: "w-6 h-6 text-[#2D8B8B]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1540,
+                                                        lineNumber: 2064,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1539,
+                                                    lineNumber: 2063,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5878,7 +5929,7 @@ function ContactSection() {
                                                             children: "Location"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1543,
+                                                            lineNumber: 2067,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5886,19 +5937,19 @@ function ContactSection() {
                                                             children: "Durban, South Africa"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1544,
+                                                            lineNumber: 2068,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1542,
+                                                    lineNumber: 2066,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1538,
+                                            lineNumber: 2062,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5910,12 +5961,12 @@ function ContactSection() {
                                                         className: "w-6 h-6 text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1550,
+                                                        lineNumber: 2076,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1549,
+                                                    lineNumber: 2075,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5925,7 +5976,7 @@ function ContactSection() {
                                                             children: "Company"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1553,
+                                                            lineNumber: 2079,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5933,25 +5984,25 @@ function ContactSection() {
                                                             children: "ORION DEV CORE"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1554,
+                                                            lineNumber: 2080,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1552,
+                                                    lineNumber: 2078,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1548,
+                                            lineNumber: 2074,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1527,
+                                    lineNumber: 2049,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5965,7 +6016,7 @@ function ContactSection() {
                                                     children: "5-17%"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1562,
+                                                    lineNumber: 2088,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5973,13 +6024,13 @@ function ContactSection() {
                                                     children: "Revenue Lift"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1563,
+                                                    lineNumber: 2089,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1561,
+                                            lineNumber: 2087,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5990,7 +6041,7 @@ function ContactSection() {
                                                     children: "Agentic"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1566,
+                                                    lineNumber: 2092,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5998,13 +6049,13 @@ function ContactSection() {
                                                     children: "Proactive AI"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1567,
+                                                    lineNumber: 2093,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1565,
+                                            lineNumber: 2091,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6015,7 +6066,7 @@ function ContactSection() {
                                                     children: "100%"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1570,
+                                                    lineNumber: 2096,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6023,25 +6074,25 @@ function ContactSection() {
                                                     children: "Provable"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1571,
+                                                    lineNumber: 2097,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1569,
+                                            lineNumber: 2095,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1560,
+                                    lineNumber: 2086,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1509,
+                            lineNumber: 2027,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6056,7 +6107,7 @@ function ContactSection() {
                                                 children: "Request a Demo"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1580,
+                                                lineNumber: 2106,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -6064,13 +6115,13 @@ function ContactSection() {
                                                 children: "See ORION in action with a personalized demonstration"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1581,
+                                                lineNumber: 2109,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1579,
+                                        lineNumber: 2105,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -6083,12 +6134,12 @@ function ContactSection() {
                                                         className: "w-8 h-8 text-[#2D8B8B]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                        lineNumber: 1589,
+                                                        lineNumber: 2117,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1588,
+                                                    lineNumber: 2116,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -6096,7 +6147,7 @@ function ContactSection() {
                                                     children: "Thank You!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1591,
+                                                    lineNumber: 2119,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6104,13 +6155,13 @@ function ContactSection() {
                                                     children: "We'll be in touch within 24 hours to schedule your demo."
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1592,
+                                                    lineNumber: 2122,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1587,
+                                            lineNumber: 2115,
                                             columnNumber: 19
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                             onSubmit: handleSubmit,
@@ -6128,7 +6179,7 @@ function ContactSection() {
                                                                     children: "Full Name"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1598,
+                                                                    lineNumber: 2131,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -6143,13 +6194,13 @@ function ContactSection() {
                                                                     className: "bg-[#0F172A] border-white/10 text-white placeholder:text-gray-500 focus:border-[#D4A84B]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1599,
+                                                                    lineNumber: 2134,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1597,
+                                                            lineNumber: 2130,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6161,7 +6212,7 @@ function ContactSection() {
                                                                     children: "Email"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1609,
+                                                                    lineNumber: 2146,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -6177,19 +6228,19 @@ function ContactSection() {
                                                                     className: "bg-[#0F172A] border-white/10 text-white placeholder:text-gray-500 focus:border-[#D4A84B]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1610,
+                                                                    lineNumber: 2149,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1608,
+                                                            lineNumber: 2145,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1596,
+                                                    lineNumber: 2129,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6204,7 +6255,7 @@ function ContactSection() {
                                                                     children: "Company"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1623,
+                                                                    lineNumber: 2164,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -6219,13 +6270,13 @@ function ContactSection() {
                                                                     className: "bg-[#0F172A] border-white/10 text-white placeholder:text-gray-500 focus:border-[#D4A84B]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1624,
+                                                                    lineNumber: 2167,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1622,
+                                                            lineNumber: 2163,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6237,7 +6288,7 @@ function ContactSection() {
                                                                     children: "Property Name"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1634,
+                                                                    lineNumber: 2182,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -6251,19 +6302,19 @@ function ContactSection() {
                                                                     className: "bg-[#0F172A] border-white/10 text-white placeholder:text-gray-500 focus:border-[#D4A84B]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                                    lineNumber: 1635,
+                                                                    lineNumber: 2185,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1633,
+                                                            lineNumber: 2181,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1621,
+                                                    lineNumber: 2162,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6275,7 +6326,7 @@ function ContactSection() {
                                                             children: "Message (Optional)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1645,
+                                                            lineNumber: 2200,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -6290,62 +6341,62 @@ function ContactSection() {
                                                             className: "bg-[#0F172A] border-white/10 text-white placeholder:text-gray-500 focus:border-[#D4A84B] resize-none"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                            lineNumber: 1646,
+                                                            lineNumber: 2203,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1644,
+                                                    lineNumber: 2199,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                     type: "submit",
                                                     className: "w-full bg-[#D4A84B] text-[#0F172A] hover:bg-[#E8C97A] font-semibold py-6",
                                                     disabled: isSubmitting,
-                                                    children: isSubmitting ? 'Sending...' : 'Request Demo'
+                                                    children: isSubmitting ? "Sending..." : "Request Demo"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1655,
+                                                    lineNumber: 2214,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1595,
+                                            lineNumber: 2128,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                        lineNumber: 1585,
+                                        lineNumber: 2113,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                lineNumber: 1578,
+                                lineNumber: 2104,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1577,
+                            lineNumber: 2103,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 1507,
+                    lineNumber: 2025,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1506,
+                lineNumber: 2024,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 1498,
+        lineNumber: 2009,
         columnNumber: 5
     }, this);
 }
@@ -6373,12 +6424,12 @@ function Footer() {
                                                 className: "w-full h-full object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1683,
+                                                lineNumber: 2242,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1682,
+                                            lineNumber: 2241,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6389,7 +6440,7 @@ function Footer() {
                                                     children: "ORION"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1686,
+                                                    lineNumber: 2249,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6397,19 +6448,19 @@ function Footer() {
                                                     children: "DEV CORE"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                    lineNumber: 1687,
+                                                    lineNumber: 2252,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1685,
+                                            lineNumber: 2248,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1681,
+                                    lineNumber: 2240,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6417,7 +6468,7 @@ function Footer() {
                                     children: "Agentic AI for African Hospitality. Proactive Intelligence. Local Languages. Real Impact. Built in South Africa for the world."
                                 }, void 0, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1690,
+                                    lineNumber: 2257,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6427,7 +6478,7 @@ function Footer() {
                                             children: "IMAGINE."
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1695,
+                                            lineNumber: 2262,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6435,7 +6486,7 @@ function Footer() {
                                             children: "AMPLIFY."
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1696,
+                                            lineNumber: 2263,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6443,19 +6494,19 @@ function Footer() {
                                             children: "CONNECT."
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1697,
+                                            lineNumber: 2264,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1694,
+                                    lineNumber: 2261,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1680,
+                            lineNumber: 2239,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6465,7 +6516,7 @@ function Footer() {
                                     children: "Products"
                                 }, void 0, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1703,
+                                    lineNumber: 2270,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -6478,12 +6529,12 @@ function Footer() {
                                                 children: "Maintenance Ticketing"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1705,
-                                                columnNumber: 19
+                                                lineNumber: 2273,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1705,
+                                            lineNumber: 2272,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -6493,12 +6544,12 @@ function Footer() {
                                                 children: "Housekeeping Status"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1706,
-                                                columnNumber: 19
+                                                lineNumber: 2281,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1706,
+                                            lineNumber: 2280,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -6508,12 +6559,12 @@ function Footer() {
                                                 children: "Guest Onboarding"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1707,
-                                                columnNumber: 19
+                                                lineNumber: 2289,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1707,
+                                            lineNumber: 2288,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -6523,12 +6574,12 @@ function Footer() {
                                                 children: "RACK RATE Control"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1708,
-                                                columnNumber: 19
+                                                lineNumber: 2297,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1708,
+                                            lineNumber: 2296,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -6538,24 +6589,24 @@ function Footer() {
                                                 children: "GHOST LAN Routing"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1709,
-                                                columnNumber: 19
+                                                lineNumber: 2305,
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1709,
+                                            lineNumber: 2304,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1704,
+                                    lineNumber: 2271,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1702,
+                            lineNumber: 2269,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6565,7 +6616,7 @@ function Footer() {
                                     children: "Contact"
                                 }, void 0, false, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1715,
+                                    lineNumber: 2317,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -6575,14 +6626,14 @@ function Footer() {
                                             children: "hello@oriondevcore.com"
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1717,
+                                            lineNumber: 2319,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Durban, South Africa"
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1718,
+                                            lineNumber: 2320,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -6593,30 +6644,30 @@ function Footer() {
                                                 children: "Request Demo"
                                             }, void 0, false, {
                                                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                                lineNumber: 1720,
+                                                lineNumber: 2322,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                            lineNumber: 1719,
+                                            lineNumber: 2321,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                                    lineNumber: 1716,
+                                    lineNumber: 2318,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1714,
+                            lineNumber: 2316,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 1678,
+                    lineNumber: 2237,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6631,7 +6682,7 @@ function Footer() {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1730,
+                            lineNumber: 2335,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6639,24 +6690,24 @@ function Footer() {
                             children: "Built in Africa. Engineered for Impact."
                         }, void 0, false, {
                             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                            lineNumber: 1733,
+                            lineNumber: 2339,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                    lineNumber: 1729,
+                    lineNumber: 2334,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-            lineNumber: 1677,
+            lineNumber: 2236,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 1676,
+        lineNumber: 2235,
         columnNumber: 5
     }, this);
 }
@@ -6666,73 +6717,73 @@ function Home() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Navigation, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1746,
+                lineNumber: 2352,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(HeroSection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1747,
+                lineNumber: 2353,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AgenticAISection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1748,
+                lineNumber: 2354,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AfricanLanguagesSection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1749,
+                lineNumber: 2355,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(GhostLANSection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1750,
+                lineNumber: 2356,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AIVisionSection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1751,
+                lineNumber: 2357,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(GuestJourneySection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1752,
+                lineNumber: 2358,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(EskomSection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1753,
+                lineNumber: 2359,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ProductsSection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1754,
+                lineNumber: 2360,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(DashboardPreviewSection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1755,
+                lineNumber: 2361,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AboutSection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1756,
+                lineNumber: 2362,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ContactSection, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1757,
+                lineNumber: 2363,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Music$2f$kimi$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Footer, {}, void 0, false, {
                 fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-                lineNumber: 1758,
+                lineNumber: 2364,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Music/kimi-web/src/app/page.tsx",
-        lineNumber: 1745,
+        lineNumber: 2351,
         columnNumber: 5
     }, this);
 }
